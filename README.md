@@ -25,7 +25,7 @@ Register at https://portal.ogc.org/public_ogc/register/202105api_codesprint.php
 * [Schedule/Agenda](./agenda.adoc)
 * [Implementations](./implementations.adoc)
 * [Datasets](./Shared_Datasets/README.md)
-* [What is everybody going to be working on?](https://github.com/opengeospatial/OGC-API-Sprint-September-2020/issues/1)
+* [What is everybody going to be working on?](https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/issues/1)
 * [Lessons and Next Steps](./lessonsAndNextSteps.adoc)
 * [Additional Resources](./additionalResources.adoc)
 * [Frequently Asked Questions (FAQs)](./FAQ.adoc)
