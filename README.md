@@ -14,9 +14,9 @@ The Open Geospatial Consortium (OGC) invites software developers to the May 2021
 
 The May 2021 OGC API Virtual Code Sprint will focus on the following draft OGC API specifications:
 
-* OGC API – Maps: The draft OGC API – Maps specification describes an API that presents data as maps by applying a style. The draft specification enables a client application to request maps as images. This includes the ability to specify or change parameters such as the size of an image and coordinate reference systems at the time of request.
-* OGC API – Tiles: The draft OGC API – Tiles specification describes an API building block that can enable other OGC API implementations to serve maps or tiled feature data divided into individual tiles. The draft specification includes concepts such as tile matrix sets and tile schemes. The draft standard can be used to publish map tiles and tiled feature data (e.g. GeoJSON Vector Tiles and Mapbox Vector Tiles).
-* OGC API – Styles: The draft OGC API – Styles specification defines a Web API that enables map servers, clients as well as visual style editors, to manage and fetch styles that consist of symbolizing instructions that can be applied by a rendering engine on features and/or coverages.
+* [OGC API – Maps](https://github.com/opengeospatial/ogcapi-maps): The draft OGC API – Maps specification describes an API that presents data as maps by applying a style. The draft specification enables a client application to request maps as images. This includes the ability to specify or change parameters such as the size of an image and coordinate reference systems at the time of request.
+* [OGC API – Tiles](https://github.com/opengeospatial/ogcapi-tiles): The draft OGC API – Tiles specification describes an API building block that can enable other OGC API implementations to serve maps or tiled feature data divided into individual tiles. The draft specification includes concepts such as tile matrix sets and tile schemes. The draft standard can be used to publish map tiles and tiled feature data (e.g. GeoJSON Vector Tiles and Mapbox Vector Tiles).
+* [OGC API – Styles](https://github.com/opengeospatial/ogcapi-styles): The draft OGC API – Styles specification defines a Web API that enables map servers, clients as well as visual style editors, to manage and fetch styles that consist of symbolizing instructions that can be applied by a rendering engine on features and/or coverages.
 
 Register at https://portal.ogc.org/public_ogc/register/202105api_codesprint.php
 
