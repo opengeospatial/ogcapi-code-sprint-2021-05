@@ -4,6 +4,8 @@
 
 This Github repository is for the May 2021 OGC API Virtual Code Sprint.
 
+[![Join the chat at https://gitter.im/ogc-developer/Sprints](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ogc-developer/Sprints)
+[#OGCAPI](https://twitter.com/hashtag/OGCAPI)
 
 About the Code Sprint
 ----------------
