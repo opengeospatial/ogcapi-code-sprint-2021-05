@@ -1,0 +1,38 @@
+== Tentative Schedule / Agenda
+
+All times on the agenda are in UTC-4/EDT (Washington D.C. time).
+
+&#10036; means that the session will have a Gotomeeting virtual room.
+
+[cols="3,7,7a",options="header",]
+|===
+|*Time* (UTC-4) |*What* |*Lead*
+3+|*Webinar (GotoMeeting) 23rd September at 10:00*
+|5 minutes | Welcome & Sponsor Remarks | Gobe Hobona (OGC) and Peter Parslow (Ordnance Survey)
+|10 minutes | Overview of OGC API - Common - Part 2: Geospatial Data | Chuck Heazel (Heazel Tech)
+|10 minutes | Overview of OGC API - Features - Part 4: Simple Transactions | Panagiotis 'Peter' A. Vretanos (CubeWerx)
+|10 minutes | API Security Considerations | Andreas Matheus (Secure Dimensions)
+|25 minutes |Questions & Answers|
+3+|*29 September 2020*
+|09:00-09:05 |Welcome & objectives &#10036; | Gobe Hobona (OGC) and Peter Parslow (Ordnance Survey)
+|09:05-09:10 |Sprint programme & way of working &#10036; |  Gobe
+|09:10-09:20 |Sprint goals for OGC API - Common - Part 2: Geospatial Data | Chuck Heazel (Heazel Tech)
+|09:20-09:30 |Sprint goals for OGC API - Features - Part 4: Simple Transactions | Panagiotis 'Peter' A. Vretanos (CubeWerx)
+|09:30-09:40 |Sprint goals for API Security Considerations | Andreas Matheus (Secure Dimensions)
+|09:40-10:00 |Questions and Answers &#10036;|
+|10:00-13:00 |Practical work|
+|Break| |
+|13:30-15:30 |Practical work|
+|15:30-16:30 |Issues / concerns &#10036; | Facilitator:  Gobe
+|16:30-17:30 |Practical work|
+3+|*30 September 2020*
+|09:00-10:00 |a short stand-up and preliminary demonstration &#10036; |Facilitator: Gobe
+|10:00-12:30 |Practical work|
+|12:30-13:00 |Issues / concerns &#10036;|
+|Break| |
+|13:30-15:30 |Practical work|
+|15:30-16:30
+a|Demonstration &#10036;
+|Facilitator: Gobe
+|16:30-17:00 |Wrap-up: immediate lessons, next steps, thanks and goodbyes &#10036; | Gobe
+|===

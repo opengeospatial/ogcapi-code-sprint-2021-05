@@ -1,0 +1,19 @@
+== API Specs
+
+OGC API - Tiles repository, https://github.com/opengeospatial/ogcapi-tiles
+
+OGC API - Tiles draft, http://docs.ogc.org/DRAFTS/20-057.html
+
+OGC API - Maps repository, https://github.com/opengeospatial/ogcapi-maps
+
+OGC API - Maps draft, http://docs.ogc.org/DRAFTS/20-058.html
+
+OGC API - Styles repository, https://github.com/opengeospatial/ogcapi-styles
+
+OGC API - Styles draft, http://docs.ogc.org/DRAFTS/20-009.html
+
+OpenAPI, https://github.com/OAI/OpenAPI-Specification
+
+== Related Specs
+
+Draft OGC Abstract Specification: Core Tiling Conceptual and Logical Models for 2D Euclidean Space, http://docs.opengeospatial.org/DRAFTS/19-014.html
