@@ -16,7 +16,7 @@ The Sprint is supported by
 <td>
 <span style="color: silver;">Silver-level Supporter</span>
 
-[<img src="https://opengeospatial.github.io/developer-website/images/logo-nrcan.png" width="200"/>](http://nrcan.gc.ca)
+[<img src="https://opengeospatial.github.io/developer-website/images/logo-nrcan.png" width="500"/>](http://nrcan.gc.ca)
 </td>
 </tr>
 </table>
