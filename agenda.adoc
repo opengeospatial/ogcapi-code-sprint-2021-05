@@ -7,14 +7,15 @@ All times on the agenda are in EDT (New York time).
 [cols="3,7,7a",options="header",]
 |===
 |*Time* (EST) |*What* |*Lead*
-3+|*Webinar (GotoMeeting) 19th May 2021 at 09:00*
+3+|*Webinar & Workshop (GotoMeeting) 19th May 2021 at 09:00*
 |5 minutes | Welcome Remarks | OGC staff
 |5 minutes | Sponsor Remarks | Sponsor representative
 |10 minutes | User Needs and Use Cases | Sponsor representative
 |10 minutes | Overview of OGC API - Maps | Editor
 |10 minutes | Overview of OGC API - Tiles | Editor
 |10 minutes | Overview of OGC API - Styles | Editor
-|10 minutes |Questions & Answers|
+|10 minutes | Questions & Answers|
+|30 minutes | Preparatory Work|
 3+|*26th May 2021*
 |07:00-07:05 |Welcome & objectives &#10036; |
 |07:05-07:20 |User Needs and Use Cases &#10036; |
