@@ -7,6 +7,20 @@ This Github repository is for the May 2021 OGC API Virtual Code Sprint.
 [![Join the chat at https://gitter.im/ogc-developer/Sprints](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ogc-developer/Sprints)
 [#OGCAPI](https://twitter.com/hashtag/OGCAPI)
 
+
+The Sprint is supported by
+------------
+
+<table>
+<tr style="background-color:#FFFFFF">
+<td>
+<span style="color: silver;">Silver-level Supporter</span>
+
+[<img src="https://opengeospatial.github.io/developer-website/images/logo-nrcan.png" width="200"/>](http://nrcan.gc.ca)
+</td>
+</tr>
+</table>
+
 About the Code Sprint
 ----------------
 
