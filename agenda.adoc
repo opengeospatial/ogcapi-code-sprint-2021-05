@@ -9,19 +9,21 @@ All times on the agenda are in EDT (New York time).
 |*Time* (EST) |*What* |*Lead*
 3+|*Webinar (GotoMeeting) 19th May 2021 at 09:00*
 |5 minutes | Welcome Remarks | OGC staff
-|15 minutes | Sponsor Remarks | Sponsor representative
+|5 minutes | Sponsor Remarks | Sponsor representative
+|10 minutes | User Needs and Use Cases | Sponsor representative
 |10 minutes | Overview of OGC API - Maps | Editor
 |10 minutes | Overview of OGC API - Tiles | Editor
 |10 minutes | Overview of OGC API - Styles | Editor
 |10 minutes |Questions & Answers|
 3+|*26th May 2021*
 |07:00-07:05 |Welcome & objectives &#10036; |
-|07:05-07:10 |Sprint programme & way of working &#10036; |
-|07:10-07:20 |Sprint goals for OGC API - Maps &#10036;|
-|07:20-07:30 |Sprint goals for OGC API - Tiles &#10036;|
-|07:30-07:40 |Sprint goals for OGC API - Styles &#10036;|
-|07:40-08:00 |Questions and Answers &#10036;|
-|08:00-13:00 |Practical work|
+|07:05-07:20 |User Needs and Use Cases &#10036; |
+|07:20-07:30 |Sprint goals for OGC API - Maps &#10036;|
+|07:30-07:40 |Sprint goals for OGC API - Maps &#10036;|
+|07:40-07:50 |Sprint goals for OGC API - Tiles &#10036;|
+|07:50-08:00 |Sprint goals for OGC API - Styles &#10036;|
+|08:00-08:20 |Questions and Answers &#10036;|
+|08:20-13:00 |Practical work|
 |13:00-13:30 |Break |
 |13:30-16:30 |Practical work|
 |16:30-17:30 |Daily brief back &#10036;|
