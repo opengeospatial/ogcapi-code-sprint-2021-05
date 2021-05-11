@@ -42,10 +42,13 @@
 | OGC API - Styles, OGC API - Features
 | https://github.com/pvretano[Panagiotis (Peter) A. Vretanos]
 
+| https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa[CubeWerx OGC API Demo]
+| OGC API - Maps, Tiles, Styles, Features, Coverages
+| https://github.com/pomakis[Keith Pomakis]
+
 | http://ogc-vtp.gospatial.org/ogc-api-tiles[Terranodo Tiles Server (Vector Tiles Pilot 2, D100 deliverable)]
 | OGC API - Tiles
 | https://github.com/jj0hns0n[Jeffrey Johnson]
-
 
 | https://vtp2.geo-solutions.it/geoserver/ogc/features[GeoSolutions Feature Server (http/https supported) (Vector Tiles Pilot 2, D100 deliverable) ]
 | OGC API - Features
