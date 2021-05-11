@@ -6,6 +6,8 @@ Sprint participants are encouraged to use *OS Open Zoomstack*, a comprehensive b
 
 https://os.uk/business-government/products/open-zoomstack
 
+Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets
+
 === Natural Resources Canada
 
 Open Maps provides access to the Government of Canada’s geospatial information.
