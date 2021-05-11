@@ -1,4 +1,4 @@
-== About the May 2021 OGC API Sprint
+== About the May 2021 OGC API Virtual Code Sprint
 
 OGC has been developing a new generation of standards for building web Application Programming Interface (API) solutions that make location-referenced information more Findable, Accessible, Interoperable, and Reusable (FAIR). These draft specifications come from OGC’s effort to create modular, resource-oriented API standards that use OpenAPI for describing interfaces that offer location-referenced information over the web.
 
