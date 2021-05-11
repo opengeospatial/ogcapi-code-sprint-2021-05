@@ -1,10 +1,18 @@
 == Additional Resources
 
-=== OS Open Zoomstack
+=== Ordnance Survey OS Open Zoomstack
 
 Sprint participants are encouraged to use *OS Open Zoomstack*, a comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
 
 https://os.uk/business-government/products/open-zoomstack
+
+=== Natural Resources Canada
+
+Open Maps provides access to the Government of Canada’s geospatial information.
+
+https://www.nrcan.gc.ca/earth-sciences/geography/atlas-canada/explore-our-data/16892
+
+CanVec vector data https://www.nrcan.gc.ca/science-and-data/science-and-research/earth-sciences/geography/topographic-information/whats-new/canvec-update-available-now/22543
 
 === Other OGC sprints and hackathons
 
