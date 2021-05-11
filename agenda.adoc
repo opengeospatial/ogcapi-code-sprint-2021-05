@@ -9,7 +9,7 @@ All times on the agenda are in EDT (New York time).
 |*Time* (EDT) |*What* |*Lead*
 3+|*Webinar & Workshop (GotoMeeting) 19th May 2021 at 09:00*
 |5 minutes | Welcome Remarks | Gobe Hobona (OGC)
-|5 minutes | Sponsor Remarks | Peter Parslow (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
+|5 minutes | Sponsor Remarks | Peter Parslow (Ordnance Survey), Michael Gordon (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
 |10 minutes | User Needs and Use Cases | Ryan Ahola (Natural Resources Canada)
 |10 minutes | Overview of OGC API - Maps | Jérôme Jacovella-St-Louis (Ecere Corporation)
 |10 minutes | Overview of OGC API - Tiles | Jérôme Jacovella-St-Louis (Ecere Corporation)
@@ -18,7 +18,7 @@ All times on the agenda are in EDT (New York time).
 |30 minutes | Preparatory Work|
 3+|*26th May 2021*
 |07:00-07:05 |Welcome & objectives &#10036; | Gobe Hobona (OGC)
-|07:05-07:10 |Sponsor Remarks | Peter Parslow (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
+|07:05-07:10 |Sponsor Remarks | Peter Parslow (Ordnance Survey), Michael Gordon (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
 |07:10-07:20 |User Needs and Use Cases &#10036; | Ryan Ahola (Natural Resources Canada)
 |07:20-07:30 |Sprint goals for OGC API - Maps &#10036;| Joan Maso (UAB - CREAF)
 |07:30-07:40 |Sprint goals for OGC API - Tiles &#10036;| Joan Maso (UAB - CREAF)
