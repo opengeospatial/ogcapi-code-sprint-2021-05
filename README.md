@@ -14,6 +14,14 @@ The Sprint is supported by
 <table>
 <tr style="background-color:#FFFFFF">
 <td>
+<span style="color:black;font-weight:bold">Gold-level Sponsor</span>
+<span style="color: silver;"> <p></p></span>
+
+[<img src="https://opengeospatial.github.io/developer-website/images/logo-os.png" width="200"/>](https://www.ordnancesurvey.co.uk/s)
+</td>
+</tr>
+<tr style="background-color:#FFFFFF">
+<td>
 <span style="color: silver;">Silver-level Supporter</span>
 <span style="color: silver;"> <p></p></span>
 
