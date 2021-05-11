@@ -1,4 +1,4 @@
-== Additional Resources
+== Open Data Resources from the Sprint Sponsors
 
 === Ordnance Survey OS Open Zoomstack
 
@@ -15,6 +15,8 @@ Open Maps provides access to the Government of Canada’s geospatial information
 https://www.nrcan.gc.ca/earth-sciences/geography/atlas-canada/explore-our-data/16892
 
 CanVec vector data https://www.nrcan.gc.ca/science-and-data/science-and-research/earth-sciences/geography/topographic-information/whats-new/canvec-update-available-now/22543
+
+== Additional Resources
 
 === Other OGC sprints and hackathons
 
