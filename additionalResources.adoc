@@ -12,9 +12,10 @@ Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https:/
 
 Open Maps provides access to the Government of Canada’s geospatial information.
 
-https://www.nrcan.gc.ca/earth-sciences/geography/atlas-canada/explore-our-data/16892
+https://open.canada.ca/en/open-maps
 
-CanVec vector data https://www.nrcan.gc.ca/science-and-data/science-and-research/earth-sciences/geography/topographic-information/whats-new/canvec-update-available-now/22543
+https://open.canada.ca/data/en/dataset/0fe65119-e96e-4a57-8bfe-9d9245fba06b
+
 
 == Additional Resources
 

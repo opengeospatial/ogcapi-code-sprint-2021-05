@@ -1,0 +1,17 @@
+== Datasets Recommended for the Code Sprint
+
+=== Ordnance Survey OS Open Zoomstack
+
+Sprint participants are encouraged to use *OS Open Zoomstack*, a comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
+
+https://os.uk/business-government/products/open-zoomstack
+
+Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets
+
+=== Natural Resources Canada
+
+Open Maps provides access to the Government of Canada’s geospatial information.
+
+https://open.canada.ca/en/open-maps
+
+HRDEM https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995
