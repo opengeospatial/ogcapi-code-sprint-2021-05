@@ -14,7 +14,7 @@ Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https:/
 
 Vector tiles of Boundary-Line, OS Open GreenSpace, Rivers and Roads are all available to download for free from the https://osdatahub.os.uk[Ordnance Survey Data Hub].
 
-Any sprint participants are free to sign up to the Data Hub to use any of Ordnance Survey's APIs as well (e.g. participants could implement a proxy in front to translate from WMTS etc.).
+Any sprint participants are free to sign up to the Data Hub to use any of Ordnance Survey's APIs as well (e.g. participants could implement an OGC API proxy in front to translate from WMTS etc.).
 
 
 === Natural Resources Canada
