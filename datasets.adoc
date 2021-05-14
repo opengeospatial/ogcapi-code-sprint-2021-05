@@ -2,8 +2,8 @@
 
 For demonstration purposes, participants are encouraged to download the following datasets and to configure their implementations of OGC APIs to publish data and maps for the following Areas of Interest (AOI):
 
-* Europe: TBA
-* North America: Red River of the North, within the extent specified by this https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/blob/main/RedRiverExtent.gpkg[GeoPackage] or this WKT string in *EPSG:4326* coordinates `POLYGON ((-97.8656275465241 50.1994331527875,-97.8290574091464 48.9215621457706,-96.475962326173 48.9305725567791,-96.4851048605174 50.2082107872824,-97.8656275465241 50.1994331527875))`.
+* Europe: The area around Bournemouth, England, within the extent specified by this https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/blob/main/BournemouthAOI.geojson[GeoJSON file] or this WKT string in *EPSG:4326* coordinates `POLYGON ((-2.13384466616954 50.5343261657655,-2.14712951953212 50.822458640394,-1.77636133932212 50.8243659606517,-1.75884948716236 50.539699354356,-2.13384466616954 50.5343261657655))`.
+* North America: Red River of the North, within the extent specified by this https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/blob/main/RedRiverAOI.geojson[GeoJSON file] or this WKT string in *EPSG:4326* coordinates `POLYGON ((-97.8656275465241 50.1994331527875,-97.8290574091464 48.9215621457706,-96.475962326173 48.9305725567791,-96.4851048605174 50.2082107872824,-97.8656275465241 50.1994331527875))`.
 
 === Ordnance Survey
 

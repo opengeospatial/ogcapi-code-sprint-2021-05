@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "BournemouthAOI",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -2.133844666169542, 50.534326165765528 ], [ -2.147129519532115, 50.822458640394039 ], [ -1.776361339322119, 50.824365960651733 ], [ -1.758849487162364, 50.539699354355982 ], [ -2.133844666169542, 50.534326165765528 ] ] ] } }
+]
+}
