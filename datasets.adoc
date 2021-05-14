@@ -1,6 +1,8 @@
 == Datasets Recommended for the Code Sprint
 
-=== Ordnance Survey OS Open Zoomstack
+=== Ordnance Survey
+
+==== OS Open Zoomstack
 
 Sprint participants are encouraged to use *OS Open Zoomstack*, a comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
 
@@ -8,7 +10,16 @@ https://os.uk/business-government/products/open-zoomstack
 
 Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets
 
+==== OS Boundary-Line and OS Open GreenSpace
+
+Vector tiles of Boundary-Line, OS Open GreenSpace, Rivers and Roads are all available to download for free from the https://osdatahub.os.uk[Ordnance Survey Data Hub].
+
+Any sprint participants are free to sign up to the Data Hub to use any of Ordnance Survey's APIs as well (e.g. participants could implement a proxy in front to translate from WMTS etc.).
+
+
 === Natural Resources Canada
+
+==== High-Resolution Digital Elevation Model (HRDEM) from NRCan's Open Maps
 
 Open Maps provides access to the Government of Canada’s geospatial information.
 
