@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "RedRiverAOI",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": "1" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.865627546524095, 50.199433152787499 ], [ -97.829057409146401, 48.921562145770601 ], [ -96.475962326173004, 48.930572556779097 ], [ -96.485104860517396, 50.208210787282397 ], [ -97.865627546524095, 50.199433152787499 ] ] ] } }
+]
+}
