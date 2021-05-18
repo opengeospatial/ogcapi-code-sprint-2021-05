@@ -29,6 +29,17 @@ HRDEM https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c005799
 
 == Additional Resources
 
+=== Meteorological Service of Canada
+
+==== MSC Open data
+
+The available open data from the Meteorological Service of Canada provides up-to-date
+information on past, present and future weather, water, climate and environmental
+conditions over Canada and the world
+
+https://eccc-msc.github.io/open-data
+
+
 === Other OGC sprints and hackathons
 
 A list of *previous and future OGC sprints and hackathons* is available at https://www.ogc.org/projects/initiatives/ogcsprints
