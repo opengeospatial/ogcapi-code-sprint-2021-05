@@ -18,7 +18,7 @@ All times on the agenda are in EDT (New York time).
 |30 minutes | Planning Workshop|
 3+|*26th May 2021*
 |07:00-07:05 |Welcome & objectives &#10036; | Gobe Hobona (OGC)
-|07:05-07:10 |Sponsor Remarks &#10036; | Michael Gordon (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
+|07:05-07:10 |Sponsor Remarks &#10036; | Peter Parslow (Ordnance Survey), Michael Gordon (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
 |07:10-07:20 |User Needs and Use Cases &#10036; | Ryan Ahola (Natural Resources Canada)
 |07:20-07:30 |Sprint goals for OGC API - Maps &#10036;| Joan Maso (UAB - CREAF)
 |07:30-07:40 |Sprint goals for OGC API - Tiles &#10036;| Joan Maso (UAB - CREAF)
