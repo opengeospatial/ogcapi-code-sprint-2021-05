@@ -15,7 +15,7 @@ All times on the agenda are in EDT (New York time).
 |10 minutes | Overview of OGC API - Tiles | Jérôme Jacovella-St-Louis (Ecere Corporation)
 |10 minutes | Overview of OGC API - Styles | Clemens Portele (interactive instruments)
 |10 minutes | Questions & Answers|
-|30 minutes | Preparatory Work|
+|30 minutes | Planning Workshop|
 3+|*26th May 2021*
 |07:00-07:05 |Welcome & objectives &#10036; | Gobe Hobona (OGC)
 |07:05-07:10 |Sponsor Remarks &#10036; | Peter Parslow (Ordnance Survey), Michael Gordon (Ordnance Survey), Ryan Ahola (Natural Resources Canada)
