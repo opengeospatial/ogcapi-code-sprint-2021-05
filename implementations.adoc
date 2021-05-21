@@ -29,6 +29,10 @@
 | OGC API - Tiles
 | https://github.com/joanma747[Joan Maso]
 
+| http://ogc.uab.cat/cgi-bin/OGCMapSprint/MiraMon.cgi[UAB CREAF implementation of OGC API - Maps]
+| OGC API - Maps
+| https://github.com/joanma747[Joan Maso]
+
 | http://maps.ecere.com/geoapi/[Ecere Tiles Server (Vector Tiles Pilot 2, D103 deliverable)]
 | OGC API - Tiles
 | https://github.com/jerstlouis[Jerome St Louis]
