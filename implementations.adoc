@@ -29,7 +29,7 @@
 | OGC API - Tiles
 | https://github.com/joanma747[Joan Maso]
 
-| http://ogc.uab.cat/cgi-bin/OGCMapSprint/MiraMon.cgi[UAB CREAF implementation of OGC API - Maps]
+| http://ogc.uab.cat/cgi-bin/OGCMapSprint/MiraMon.cgi[UAB CREAF MiraMon Server implementation of OGC API - Maps]
 | OGC API - Maps
 | https://github.com/joanma747[Joan Maso]
 
@@ -86,6 +86,10 @@
 [cols=",,",width="75%",options="header",align="center"]
 |===
 |Implementation | Type | Contact
+
+| http://ogc.uab.cat/OGCMapSprint/[UAB CREAF MiraMon Client implementation of OGC API - Maps]
+| OGC API - Maps
+| https://github.com/joanma747[Joan Maso]
 
 | http://ogc-vtp2.s3.us-east-2.amazonaws.com/index.html[Terranodo client (Vector Tiles Pilot 2, D100 deliverable)]
 | OGC API - Tiles
