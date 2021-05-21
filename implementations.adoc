@@ -53,10 +53,6 @@
 | OGC API - Maps, Tiles, Styles, Features, Coverages
 | https://github.com/pomakis[Keith Pomakis]
 
-| http://ogc-vtp.gospatial.org/ogc-api-tiles[Terranodo Tiles Server (Vector Tiles Pilot 2, D100 deliverable)]
-| OGC API - Tiles
-| https://github.com/jj0hns0n[Jeffrey Johnson]
-
 | https://vtp2.geo-solutions.it/geoserver/ogc/features[GeoSolutions Feature Server (http/https supported) (Vector Tiles Pilot 2, D100 deliverable) ]
 | OGC API - Features
 | https://github.com/aaime[Andrea Aime]
@@ -90,10 +86,6 @@
 | http://ogc.uab.cat/OGCMapSprint/[UAB CREAF MiraMon Client implementation of OGC API - Maps]
 | OGC API - Maps
 | https://github.com/joanma747[Joan Maso]
-
-| http://ogc-vtp2.s3.us-east-2.amazonaws.com/index.html[Terranodo client (Vector Tiles Pilot 2, D100 deliverable)]
-| OGC API - Tiles
-| https://github.com/jj0hns0n[Jeffrey Johnson]
 
 | http://demo.vtp2.geo-solutions.it/mapstore/index.html[GeoSolutions client (Vector Tiles Pilot 2, D104 deliverable)]
 | OGC API - Tiles
