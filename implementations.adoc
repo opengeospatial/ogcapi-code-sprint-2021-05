@@ -33,7 +33,7 @@
 | OGC API - Maps
 | https://github.com/joanma747[Joan Maso]
 
-| http://maps.ecere.com/geoapi/[Ecere Tiles Server (Vector Tiles Pilot 2, D103 deliverable)]
+| https://maps.ecere.com/ogcapi[Ecere Tiles Server]
 | OGC API - Tiles
 | https://github.com/jerstlouis[Jerome St Louis]
 
