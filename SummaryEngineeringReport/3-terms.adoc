@@ -1,0 +1,36 @@
+== Terms and definitions
+
+
+
+For the purposes of this report, the definitions specified in Clause 4 of the OWS Common Implementation Standard https://portal.opengeospatial.org/files/?artifact_id=38867&version=2[OGC 06-121r9] shall apply. In addition, the following terms and definitions apply.
+
+.NOTE: Delete the first three terms because they are examples.
+
+&#9679; coordinate reference system ::
+
+ coordinate system that is related to the real world by a datum term name (source: ISO 19111)
+
+&#9679; portrayal ::
+
+ presentation of information to humans (source: ISO 19117)
+
+&#9679; LiDAR ::
+
+ *Light Detection and Ranging* -- a common method for acquiring point clouds through aerial, terrestrial, and mobile acquisition methods.
+
+&#9679; term name ::
+
+ text of the definition
+
+&#9679; term name|synonym  ::
+
+ text of the definition
+
+
+===	Abbreviated terms
+
+* *API* Application Programming Interface
+* *CRS* Coordinate Reference System
+* *OGC* Open Geospatial Consortium
+* *WMS* Web Map Service
+* *WMTS* Web Map Tile Service
