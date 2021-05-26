@@ -49,7 +49,7 @@
 | OGC API - Styles, OGC API - Features
 | https://github.com/pvretano[Panagiotis (Peter) A. Vretanos]
 
-| https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa[CubeWerx OGC API Demo]
+| https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Winnipeg_2019[CubeWerx OGC API Demo]
 | OGC API - Maps, Tiles, Styles, Features, Coverages
 | https://github.com/pomakis[Keith Pomakis]
 
