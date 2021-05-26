@@ -4,9 +4,13 @@ OGC API - Tiles repository, https://github.com/opengeospatial/ogcapi-tiles
 
 OGC API - Tiles draft, http://docs.ogc.org/DRAFTS/20-057.html
 
+For OGC API - Tiles, use the API definition document from here https://app.swaggerhub.com/domains/UAB-CREAF
+
 OGC API - Maps repository, https://github.com/opengeospatial/ogcapi-maps
 
 OGC API - Maps draft, http://docs.ogc.org/DRAFTS/20-058.html
+
+For OGC API - Maps, use the API definition document from here https://app.swaggerhub.com/domains/UAB-CREAF
 
 OGC API - Styles repository, https://github.com/opengeospatial/ogcapi-styles
 
