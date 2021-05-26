@@ -1,4 +1,20 @@
 [[architecture]]
 == Architecture
 
+=== High Level Overview
+
 TBA
+
+=== Candidate Standards
+
+==== OGC API - Maps
+
+The draft OGC API - Maps standard describes an API that presents maps portraying data that has been rendered according to a style. The maps served by implementations of the draft OGC API - Maps standard are retrieved as images of any size, generated on-the-fly, and with the styling determined by the client application. The draft standard can be considered the successor to the widely implemented WMS standard. The draft OGC API – Maps specification is part of the https://ogcapi.ogc.org/[OGC API] family of standards.
+
+==== OGC API - Tiles
+
+OGC API - Tiles references the OGC Two Dimensional Tile Matrix Set (TMS) standard. The TMS standard defines the rules and requirements for a tile matrix set as a way to index space based on a set of regular grids defining a domain (tile matrix) for a limited list of scales in a CRS. The draft OGC API – Tiles specification is part of the https://ogcapi.ogc.org/[OGC API] family of standards.
+
+==== OGC API - Styles
+
+OGC API - Styles describes the interface and exchange of styling parameters and instructions. The construction of symbology components of styles is addressed in the https://docs.ogc.org/is/18-067r3/18-067r3.html[OGC Symbology Conceptual Model: Core Part] standard and multiple OGC and other style encoding standards. The draft OGC API – Styles specification is part of the https://ogcapi.ogc.org/[OGC API] family of standards.
