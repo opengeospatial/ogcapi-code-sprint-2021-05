@@ -1,0 +1,12 @@
+[[references]]
+== References
+
+The following normative documents are referenced in this document.
+
+* OGC: OGC 06-042, OpenGIS Web Map Service (WMS) Implementation Specification 1.3.0 (2006)
+* OGC: OGC 05-078r4, Styled Layer Descriptor, Version 1.1 (2007)
+* OGC: OGC 19-072, draft OGC API - Common - Part 1: Core candidate standard, http://docs.ogc.org/DRAFTS/19-072.html
+* OGC: OGC 20-058, draft OGC API - Maps - Part 1: Core candidate standard, http://docs.ogc.org/DRAFTS/20-058.html
+* OGC: OGC 20-057, draft OGC API - Tiles - Part 1: Core candidate standard, http://docs.ogc.org/DRAFTS/20-057.html
+* OGC: OGC 20-009, draft OGC API - Styles - Part 1: Core candidate standard, http://docs.ogc.org/DRAFTS/20-009.html
+* IETF: RFC-7946 The GeoJSON Format (2016)

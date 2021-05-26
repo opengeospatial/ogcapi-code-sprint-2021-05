@@ -1,0 +1,17 @@
+[appendix]
+[[RevisionHistory]]
+= Revision History
+
+[NOTE]
+.Example History (Delete this note).
+===============================================
+replace below entries as needed
+===============================================
+
+.Revision History
+[width="90%",options="header"]
+|====================
+|Date |Editor |Release | Primary clauses modified |Descriptions
+|2021-05-26 |G. Hobona | .1 |all |initial version
+|TBA |TBA | TBA |TBA |TBA
+|====================

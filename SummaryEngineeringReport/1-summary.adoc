@@ -1,0 +1,51 @@
+== Subject
+
+The subject of this Engineering Report (ER) is a code sprint that was held from 26 to 28 May 2021 to advance the development of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application or service to other applications (adapted from ISO/IEC TR 13066-2:2016). The code sprint was hosted online. The event was sponsored by Ordnance Survey (OS) and Natural Resources Canada (NRCan).
+
+== Executive Summary
+
+This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The goal of the code sprint was to progress the specification of OGC APIs for Maps, Tiles and Styles. The sprint also sought to help to identify issues and options for addressing those issues.
+
+The objectives of the code sprint were to:
+
+* Develop prototype implementations of OGC API – Maps
+* Develop prototype implementations of OGC API – Tiles
+* Develop prototype implementations of OGC API – Styles
+* Test the prototype implementations
+* Provide feedback to the Editor about what worked and what did not work
+* Provide feedback about the specification document, especially what is missing from the document
+
+
+Part of the motivation for holding the sprint was:
+
+* APIs have proven to be popular and very effective enabler of rapid software development
+* There is an increasing need for optimizing geospatial interoperability between Web APIs
+* There is phenomenal adoption of location-handling capabilities in software within and outside of geospatial developer communities
+
+The draft OGC API – Maps specification describes an API that presents data as maps by applying a style. The draft specification enables a client application to request maps as images. This includes the ability to specify or change parameters such as the size of an image and coordinate reference systems at the time of request.
+
+The draft OGC API – Tiles specification describes an API building block that can enable other OGC API implementations to serve maps or tiled feature data divided into individual tiles. The draft specification includes concepts such as tile matrix sets and tile schemes. The draft standard can be used to publish map tiles and tiled feature data (e.g. GeoJSON Vector Tiles and Mapbox Vector Tiles).
+
+The draft OGC API – Styles specification defines a Web API that enables map servers, clients as well as visual style editors, to manage and fetch styles that consist of symbolizing instructions that can be applied by a rendering engine on features and/or coverages.
+
+===	Document contributor contact points
+
+All questions regarding this document should be directed to the editor or the contributors:
+
+*Contacts*
+[width="80%",options="header",caption=""]
+|====================
+|Name |Organization | Role
+|Gobe Hobona | Open Geospatial Consortium | Editor
+|((Full Name)) | ((from org)) |((Editor/Contributor))
+|====================
+
+
+// *****************************************************************************
+// Editors please do not change the Foreword.
+// *****************************************************************************
+=== Foreword
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.
+
+Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.

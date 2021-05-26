@@ -1,0 +1,58 @@
+* APCO
+* Carmenta AB
+* Connected places catapult
+* CRTC
+* CubeWerx Inc.
+* Danish Defense
+* EAD
+* EarthPulse
+* Ecere Corporation
+* Elemental Earth Data Ltd.
+* Esri
+* Federal University of Technology Akure
+* Fisheries and Oceans Canada
+* FrontierSI
+* GatewayGeo
+* Geobeyond Srl
+* GeoCat BV
+* GeoLabs
+* GeoSolutions
+* Geus
+* Global Nomad GIS Services
+* Heazeltech
+* interactive instruments GmbH
+* intern
+* İstanbul Technical University
+* ITU
+* JLL
+* European Commission - Joint Research Centre
+* Kinder Institute at Rice University
+* Kongsberg Geospatial
+* Lexco Limited
+* Luxembourg Institute of Science and Technology
+* Manipal University Jaipur
+* Meteorological Service of Canada
+* Met Office
+* Montefiore IT
+* Natural Resources Canada
+* NIWA
+* National University of Singapore
+* Open Source Geospatial Foundation
+* Ordnance Survey
+* Planet
+* Promethee
+* Red Helmet Technology
+* RMSI Pvt Ltd
+* SDIS33
+* Spatiomatics
+* Synergetic systems
+* UAB-CREAF
+* UFMG
+* UK Defence Science and Technology Laboratory
+* UK Hydrographic Office
+* Unc
+* Univalle
+* University of Lagos
+* US Army Geospatial Center
+* US Census
+* uttar pradesh remote sensing application center

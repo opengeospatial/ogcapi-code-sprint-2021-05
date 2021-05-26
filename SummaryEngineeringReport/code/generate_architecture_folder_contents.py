@@ -1,0 +1,22 @@
+f = open('../participating_organisations.adoc','r')
+for line in f.readlines():
+    fullname = line.replace('* ','').replace('\n','')
+    filename = line.replace(' ','').replace('-','').replace('.','').replace('*','').replace('\n','')
+    print('Create '+filename+'.adoc')
+    fout = open('../results/'+filename+'.adoc','w')
+    fout.write('==== '+fullname+'\n\nTBA\n\n')
+    fout.write('===== Motivation to Participate\n\nTBA\n\n')
+    fout.write('===== Implemented Solution\n\nTBA\n\n')
+    fout.write('===== Proposed Alternatives\n\nTBA\n\n')
+    fout.write('===== Experiences with OGC API Specifications\n\nTBA\n\n')
+    fout.close()
+f.close()
+
+f = open('../participating_organisations.adoc','r')
+fout = open('../6-results-includes.adoc','w')
+for line in f.readlines():
+    fullname = line.replace('* ','').replace('\n','')
+    filename = line.replace(' ','').replace('-','').replace('.','').replace('*','').replace('\n','')
+    fout.write('include::results/'+filename+'.adoc[]\n\n')
+fout.close()
+f.close()
