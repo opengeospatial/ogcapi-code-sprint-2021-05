@@ -1,3 +1,49 @@
 === User Needs and Use Cases
 
-TBA
+To help the sprint participants prioritise their efforts, the sprint organisers invited Natural Resources Canada (NRCan) to outline User Needs from NRCan's perspective as a National Mapping Agency (NMA). This section summarizes the user needs and relates them to use cases envisaged for the OGC APIs in focus for the sprint.
+
+==== Introduction to Natural Resources Canada
+
+Natural Resources Canada (NRCan) is a part of the Federal Government of Canada responsible for natural resources, energy, minerals and metals, forests, earth sciences, mapping, and remote sensing.
+
+The broad mandate of NRCan is to Enhance responsible development and use of Canada's natural resources and improve the competitiveness of Canada's natural resources products within many areas such as Mapping Forestry, Mining/Geology, Energy and Energy Efficiency, Earth Observation. Geospatial data plays a key role in all of the aforementioned areas, hence NRCan's interest in the development of OGC APIs.
+
+As the NMA of Canada, NRCan plays a critical nation-wide role in the distribution of authoritative geospatial data products, including cartographic products such as maps.
+
+==== The Priorities that drive the Need for APIs
+
+There are specific priorities that drive what NRCan would like to see from OGC APIs. The key priorities that drive what NRCan would like to see from OGC APIs include for example: Climate Change, Response to disasters/extreme events, the Arctic, Trade, Sovereignty, and Indigenous Reconciliation. The government has a strong desire to have collaboration and innovation within government processing benefiting Canadian society broadly. Innovation provides a bridge between the government's internal focus areas and how these will apply within Canada and its position in the world. So, indeed, all the OGC APIs that are being developed through this sprint will, in the future, help to benefit society.
+
+
+==== Specific Needs
+
+OGC APIs have a substantial role to play in future NMAs. At NRCan, this role is likely to involve the development and provision of microservices in order to support the delivery of geospatial data, maps and analytics. This role can be described in terms of the following needs:
+
+* *Providing the public with access to geospatial data and maps*: This is a key function of an NMA. NRCan therefore sees OGC APIs as having the potential to help the NMA's to provide open data in a way that conforms to FAIR principles (Findable, Accessible, Interoperable, and Reusable). This enables the members of the public to make use of the geospatial data and maps as they see fit (e.g. in support of other parts of the community or economy).
+
+* *Facilitating analytics*: Making geospatial a fundamental part of national decision making requires consideration of how to optimize the use of location information. So by focusing firstly on analytics, geospatial experts can be enabled to help others, then those experts could make better decisions through geospatial information analytics.
+
+* *Reducing barriers to accessing geospatial data*: Geospatial data has gotten more accessible over the past decade. However, there has also been a significant increase in the demand for knowledge and expertise in all sorts of development to use geospatial information.
+
+==== Sprint Area of Interest
+
+For demonstration purposes, Sprint participants were encouraged to publish specific data and maps for the following Areas of Interest (AOI):
+
+Europe: The area around Bournemouth, England, within the extent specified by https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/blob/main/BournemouthAOI.geojson[this GeoJSON file] or this WKT string in EPSG:4326 coordinates `POLYGON -2.13384466616954 50.5343261657655,-2.14712951953212 50.822458640394,-1.77636133932212 50.8243659606517,-1.75884948716236 50.539699354356,-2.13384466616954 50.5343261657655`.
+
+North America: Red River of the North, within the extent specified by https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/blob/main/RedRiverAOI.geojson[this GeoJSON file] or this WKT string in EPSG:4326 coordinates `POLYGON -97.8656275465241 50.1994331527875,-97.8290574091464 48.9215621457706,-96.475962326173 48.9305725567791,-96.4851048605174 50.2082107872824,-97.8656275465241 50.1994331527875`.
+
+The datasets that were recommended for the code sprint included:
+
+==== Ordnance Survey datasets for the Sprint's Europe AOI
+
+* https://os.uk/business-government/products/open-zoomstack[OS Open Zoomstack data product]: A comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
+* https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets[OS Open Zoomstack stylesheets]: These are OS Open Zoomstack stylesheets encoded in OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles formats.
+
+===== NRCan datasets for the Sprint's North America AOI
+
+* https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995[High Resolution Digital Elevation Model (HRDEM)]: Complete coverage of the Canadian territory in a Digital Terrain Model (DTM), a Digital Surface Model (DSM) and other derived data.
+* https://open.canada.ca/data/en/dataset/296de17c-001c-4435-8f9a-f5acab632e85[Canada Base Map Transportation (CBMT)]: Base map with a focus on transportation networks. Available as a tiled web map service.
+* https://www.nrcan.gc.ca/science-and-data/science-and-research/earth-sciences/geography/topographic-information/geobase-surface-water-program-geeau/national-hydrographic-network/21361[National Hydrographic Network (NHN)]: Data about Canada’s inland surface waters.
+* https://www.asc-csa.gc.ca/eng/satellites/radarsat1/Default.asp[RADARSAT-1]: An operational radar satellite system, equiped with a Synthetic Aperture Radar (SAR) instrument, capable of acquiring images of the Earth day or night, in all weather and through cloud cover, smoke and haze.
+* http://open.canada.ca/en/open-maps[Open Maps]: Approximately 4600 open geospatial datasets for Canada.

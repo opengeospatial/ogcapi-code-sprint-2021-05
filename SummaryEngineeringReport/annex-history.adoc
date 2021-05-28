@@ -2,12 +2,6 @@
 [[RevisionHistory]]
 = Revision History
 
-[NOTE]
-.Example History (Delete this note).
-===============================================
-replace below entries as needed
-===============================================
-
 .Revision History
 [width="90%",options="header"]
 |====================

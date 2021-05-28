@@ -1,6 +1,18 @@
 [[introduction]]
 == Introduction
 
-TBA
+This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The sprint had been organized to advance the development of the draft OGC API - Maps, OGC API - Tiles and OGC API - Styles standards. Sprint participants prototyped implementations of the draft standards, validating the requirements and providing feedback so that the draft standards could be improved.
+
+An OGC Code Sprint is a collaborative and inclusive event driven by innovative and rapid programming with minimal process and organization constraints to support the development of new applications and open standards. OGC Code Sprints experiment with emerging ideas in the context of geospatial standards, help improve interoperability of existing standards by experimenting with new extensions or profiles, and are used as a proof of concept for other OGC Innovation Program initiatives, or support OGC Standards Program activities.
+
+The code sprint was sponsored by Ordnance Survey (OS) and Natural Resources Canada (NRCan).
 
 === User Needs and Use Cases
+
+include::4-introduction-user-needs.adoc[]
+
+=== Participants
+
+Software developers and solutions architects from the following organizations registered to participate in the code sprint:
+
+include::participating_organisations.adoc[]

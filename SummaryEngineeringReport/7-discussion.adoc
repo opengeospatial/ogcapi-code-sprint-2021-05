@@ -1,4 +1,32 @@
 [[discussion]]
 == Discussion
 
+The participants used the Gitter platform for written discussion. This was in addition to using Gotomeeting for discussion during the scheduled teleconferences. Individual issues were recorded on the Issues board on GitHub. A screenshot of the Gitter channel is shown below in <<img_gitter>>. The Gitter channel can be found at https://gitter.im/ogc-developer/Sprints
+
+[#img_gitter,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of Gitter channel
+image::images/gitter.png[width=600,align="center"]
+
+A screenshot of the GitHub repository is shown below in <<img_github>>. The GitHub repository can be found at https://github.com/opengeospatial/ogcapi-code-sprint-2021-05
+
+[#img_github,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of GitHub repository
+image::images/github.png[width=600,align="center"]
+
+The next subsections provide a summary of the discussion.
+
+=== Topic 1
+
+TBA
+
+=== Topic 2
+
+TBA
+
+=== Topic 3
+
+TBA
+
+=== Topic 4
+
 TBA

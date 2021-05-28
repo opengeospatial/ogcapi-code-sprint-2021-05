@@ -18,19 +18,12 @@ For the purposes of this report, the definitions specified in Clause 4 of the OW
 
  *Light Detection and Ranging* -- a common method for acquiring point clouds through aerial, terrestrial, and mobile acquisition methods.
 
-&#9679; term name ::
-
- text of the definition
-
-&#9679; term name|synonym  ::
-
- text of the definition
-
 
 ===	Abbreviated terms
 
 * *API* Application Programming Interface
 * *CRS* Coordinate Reference System
 * *OGC* Open Geospatial Consortium
+* *SLD* Styled Layer Descriptor
 * *WMS* Web Map Service
 * *WMTS* Web Map Tile Service

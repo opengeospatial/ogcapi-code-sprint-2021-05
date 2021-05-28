@@ -1,8 +1,7 @@
 [[results]]
 == Results
 
-=== Overview
-
+Multiple organizations provided servers, API implementations, and capabilities during the event. The rest of this section describes each of the implementations.
 
 === Implementations and Experiences
 
