@@ -58,12 +58,25 @@
 | https://github.com/pomakis[Keith Pomakis]
 
 | https://vtp2.geo-solutions.it/geoserver/ogc/features[GeoSolutions Feature Server (http/https supported) (Vector Tiles Pilot 2, D100 deliverable) ]
-| OGC API - Features
+| OGC API - Features (may be decommissioned in June)
 | https://github.com/aaime[Andrea Aime]
 
 | https://vtp2.geo-solutions.it/geoserver/ogc/tiles[GeoSolutions Tiles Server (http/https supported) (Vector Tiles Pilot 2, D102 deliverable)]
+| OGC API - Tiles (based on VTP2 spec, may be decommissioned in June)
+| https://github.com/aaime[Andrea Aime]
+
+| http://gs-main.geosolutionsgroup.com/geoserver/oszoom/ogc/styles[GeoSolutions Styles Server (http/https supported) (Based on daily cut of dev brach)]
+| OGC API - Styles
+| https://github.com/aaime[Andrea Aime]
+
+| http://gs-main.geosolutionsgroup.com/geoserver/oszoom/ogc/tiles[GeoSolutions Tiles Server (http/https supported) (Based on daily cut of dev brach)]
 | OGC API - Tiles
 | https://github.com/aaime[Andrea Aime]
+
+| http://gs-main.geosolutionsgroup.com/geoserver/oszoom/ogc/maps[GeoSolutions Maps Server (http/https supported) (Based on daily cut of dev brach)]
+| OGC API - Maps
+| https://github.com/aaime[Andrea Aime]
+
 
 | https://azavea.github.io/franklin/[Franklin] - Documentation & https://github.com/azavea/franklin[GitHub] Code
 | STAC, OGC API - Tiles, Features
