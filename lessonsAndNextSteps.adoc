@@ -2,6 +2,14 @@
 
 == Immediate Lessons
 
+* The Tiles API is reasonably stable. We have seen different interpretations of how to apply styles to collections maps and the dataset maps.
+* Evolution of WKSS into common TMS (the ones that are going to be registered). The evolution has taken us to a conclusion that WKSS.
+* The concept of buildings blocks has been completely demonstrated. The three APIs have been successfully demonstrated together.
+* The sprint has shown that a lot that is common can be shared across the APIs i.e. how much OGC API - Common - Part 2 facilitates the client implementation.
+* The interaction between Maps, Tiles, Styles worked well. No major issues came up that could not be verified.
+* More work needs to be done on Styles in general. e.g. where we use the styles has an impact on the resources.
+* We focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the formats aspects of the styles (e.g. SymCore).
+* TBA
 * TBA
 * TBA
 
