@@ -7,7 +7,7 @@
 
 == Implications for the needs of NMAs
 
-Implications for the following needs:
+What will the APIs do to help meet the following needs?
 
 * Providing the public with access to geospatial data and maps
 * Facilitating analytics
