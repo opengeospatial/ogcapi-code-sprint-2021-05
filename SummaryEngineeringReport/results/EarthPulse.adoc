@@ -10,7 +10,7 @@ https://github.com/doublebyte1/[@doublebyte1] and https://github.com/PascalLike[
 
 We are participating in an H2020 research project (945307 - eMOTIONAL Cities), and our main task is to create a spatial data infrastructure, using modern technologies.
 
-Our motivation to participate in this sprint was to learn more about the OGC API standards and its current implementations, to assess what is feasible to adopt in the project.
+Our main motivation to participate in this sprint was to learn more about the OGC API standards and its current implementations, to assess what is feasible to adopt in the project. At the same time, we wanted to contribute to testing (and eventually improving) of current OGC API implementations.
 
 ===== Implemented Solution
 
