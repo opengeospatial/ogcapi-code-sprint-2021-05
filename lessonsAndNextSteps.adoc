@@ -5,6 +5,13 @@
 * TBA
 * TBA
 
+
+Implications for the following needs:
+
+* Providing the public with access to geospatial data and maps
+* Facilitating analytics
+* Reducing barriers to accessing geospatial data
+
 == Next steps
 
 How will the sprint’s outcomes will be incorporated into future OGC Standards Program and Innovation Program activities?
