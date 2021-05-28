@@ -5,11 +5,15 @@
 * TBA
 * TBA
 
-== Next Steps for the innovation side
+== Next steps
+
+How will the sprint’s outcomes will be incorporated into future OGC Standards Program and Innovation Program activities?
+
+=== Next Steps for the Innovation Program
 
 * TBA
 
-== Next Steps on the standards side
+=== Next Steps on the Standards Program
 
 * TBA
 * TBA
