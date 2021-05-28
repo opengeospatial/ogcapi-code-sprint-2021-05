@@ -37,7 +37,11 @@ All questions regarding this document should be directed to the editor or the co
 |====================
 |Name |Organization | Role
 |Gobe Hobona | Open Geospatial Consortium | Editor
-|((Full Name)) | ((from org)) |((Editor/Contributor))
+|Nazih Fino | Global Nomad GIS Services |Contributor
+|((Full Name)) | ((from org)) |Contributor
+|((Full Name)) | ((from org)) |Contributor
+|((Full Name)) | ((from org)) |Contributor
+|((Full Name)) | ((from org)) |Contributor
 |====================
 
 
