@@ -9,7 +9,7 @@
 * The interaction between Maps, Tiles, Styles worked well. No major issues came up that could not be verified.
 * More work needs to be done on Styles in general. e.g. where we use the styles has an impact on the resources.
 * We focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the formats aspects of the styles (e.g. SymCore).
-* TBA
+* While in the Tiles API we have developed a metadata model, in the Maps API there has been less interest in developing a specific metadata model.
 * TBA
 * TBA
 
@@ -27,9 +27,18 @@ How will the sprint’s outcomes will be incorporated into future OGC Standards 
 
 === Next Steps for the Innovation Program
 
+There is a need to:
+
+* experiment with multidimensional support in OGC APIs.
+* explore how we turn legends into real data(objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).
+* research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.
+* Coverage tiles are increasingly important (e.g. in support of rendering DSM's and DDIL environments).  Strategies for the size of the tiles needs to tested/researched.
+* TBA
 * TBA
 
 === Next Steps on the Standards Program
 
-* TBA
-* TBA
+There is a need to:
+
+* implement a legend capability for the Maps and Tiles APIs.
+* implement an info capability for the Maps and Tiles APIs.
