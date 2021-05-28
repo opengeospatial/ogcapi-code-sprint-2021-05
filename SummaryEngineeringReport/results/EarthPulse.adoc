@@ -34,6 +34,8 @@ Finally, we tested the OGC API Tiles implementation of the spec, using postman:
 
 https://www.getpostman.com/collections/3c54a654cb74f803b683
 
+We believe that not all the OGC API Vector tiles requests are implemented, in particular in what regards TileMatrixSets. It seems difficult to retrieve a tile, when there are no requests to retrieve the TileMatrixSet.
+
 We also wanted to check a client-side implementation of the spec, and came across https://github.com/frontiersi/leaflet-ogc-layers[this] repository, developed during this sprint.
 
 On https://github.com/PascalLike/leaflet-ogc-layers[this] fork, we created an interactive map which uses this leaflet implementation:
