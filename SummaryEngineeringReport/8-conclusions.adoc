@@ -2,3 +2,7 @@
 == Conclusions
 
 TBA
+
+=== Future Work
+
+How will the project’s outcomes will be incorporated into future OGC Standards Program and Innovation Program activities.

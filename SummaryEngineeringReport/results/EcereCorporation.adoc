@@ -8,7 +8,16 @@ TBA
 
 ===== Implemented Solution
 
-TBA
+The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. GNOSIS Map Server supports multiple encodings including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), Mapbox Vector Tiles, GeoJSON, GeoECON, GML and MapML. An experimental server is available online at https://maps.ecere.com/ogcapi and has been used in multiple OGC Innovation Program initiatives. At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is https://www.ogc.org/resource/products/details/?pid=1670[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. For this code sprint, the server was configured to offer an endpoint supporting:
+
+
+* Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.
+* Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.
+* Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
+* Multiple conformance classes and recommendations of the draft OGC API - Coverages - Part 1: Core specification.
+* Multiple conformance classes and recommendations of the draft OGC API - Processes - Part 1: Core specification.
+* Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.
+
 
 ===== Proposed Alternatives
 
@@ -17,4 +26,3 @@ TBA
 ===== Experiences with OGC API Specifications
 
 TBA
-
