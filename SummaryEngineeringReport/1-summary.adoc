@@ -4,7 +4,7 @@ The subject of this Engineering Report (ER) is a code sprint that was held from 
 
 == Executive Summary
 
-This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The goal of the code sprint was to progress the specification of OGC APIs for Maps, Tiles and Styles. The sprint also sought to help to identify issues and options for addressing those issues.
+This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The goal of the code sprint was to progress the development of the draft OGC API standards for Maps, Tiles and Styles. The sprint also sought to help to identify issues and options for addressing those issues.
 
 The objectives of the code sprint were to:
 

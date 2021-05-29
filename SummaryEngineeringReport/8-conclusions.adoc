@@ -1,8 +1,27 @@
 [[conclusions]]
 == Conclusions
 
-TBA
+The code sprint facilitated the development and testing of prototype implementations of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. Further, the code sprint also enabled the participating developers to provide feedback to the editors of OGC standards. The code sprint was also able to identify ways through which the OGC APIs would help to meet the needs of NMAs. The code sprint therefore met all of its objectives and achieved its goal of progressing the development of the draft OGC API standards for Maps, Tiles and Styles.
 
 === Future Work
 
-How will the project’s outcomes will be incorporated into future OGC Standards Program and Innovation Program activities.
+The sprint participants considered how the sprint’s outcomes could be incorporated into future OGC Standards Program and Innovation Program activities.
+
+=== Next Steps for the Innovation Program
+
+There is a need to:
+
+* experiment with multidimensional data support in OGC APIs.
+* explore how to turn legends into real data(objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).
+* research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.
+* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering DSM's and DDIL environments).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.
+* experiment with non-grid coverages (e.g. point clouds).
+* explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).
+
+=== Next Steps on the Standards Program
+
+There is a need to:
+
+* specify a legend conformance class for the OGC API - Maps and OGC API - Tiles draft specifications.
+* specify an 'info' conformance class for the OGC API - Maps and OGC API - Tiles  draft specifications.
+* implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the WMS Best Practice for Time Dependent) e.g. the subset and datetime parameters

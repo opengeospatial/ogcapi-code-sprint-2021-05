@@ -528,17 +528,16 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </li>
 <li><a href="#introduction">5. Introduction</a>
 <ul class="sectlevel2">
-<li><a href="#_user_needs_and_use_cases">5.1. User Needs and Use Cases</a></li>
-<li><a href="#_user_needs_and_use_cases_2">5.2. User Needs and Use Cases</a>
+<li><a href="#_user_needs_and_use_cases">5.1. User Needs and Use Cases</a>
 <ul class="sectlevel3">
-<li><a href="#_introduction_to_natural_resources_canada">5.2.1. Introduction to Natural Resources Canada</a></li>
-<li><a href="#_the_priorities_that_drive_the_need_for_apis">5.2.2. The Priorities that drive the Need for APIs</a></li>
-<li><a href="#_specific_needs">5.2.3. Specific Needs</a></li>
-<li><a href="#_sprint_area_of_interest">5.2.4. Sprint Area of Interest</a></li>
-<li><a href="#_ordnance_survey_datasets_for_the_sprints_europe_aoi">5.2.5. Ordnance Survey datasets for the Sprint&#8217;s Europe AOI</a></li>
+<li><a href="#_introduction_to_natural_resources_canada">5.1.1. Introduction to Natural Resources Canada</a></li>
+<li><a href="#_the_priorities_that_drive_the_need_for_apis">5.1.2. The Priorities that drive the Need for APIs</a></li>
+<li><a href="#_specific_needs">5.1.3. Specific Needs</a></li>
+<li><a href="#_sprint_area_of_interest">5.1.4. Sprint Area of Interest</a></li>
+<li><a href="#_ordnance_survey_datasets_for_the_sprints_europe_aoi">5.1.5. Ordnance Survey datasets for the Sprint&#8217;s Europe AOI</a></li>
 </ul>
 </li>
-<li><a href="#_participants">5.3. Participants</a></li>
+<li><a href="#_participants">5.2. Participants</a></li>
 </ul>
 </li>
 <li><a href="#architecture">6. Architecture</a>
@@ -624,10 +623,17 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <li><a href="#_topic_1">8.1. Topic 1</a></li>
 <li><a href="#_topic_2">8.2. Topic 2</a></li>
 <li><a href="#_topic_3">8.3. Topic 3</a></li>
-<li><a href="#_topic_4">8.4. Topic 4</a></li>
+<li><a href="#_immediate_lessons">8.4. Immediate Lessons</a></li>
+<li><a href="#_implications_for_nmas">8.5. Implications for NMAs</a></li>
 </ul>
 </li>
-<li><a href="#conclusions">9. Conclusions</a></li>
+<li><a href="#conclusions">9. Conclusions</a>
+<ul class="sectlevel2">
+<li><a href="#_future_work">9.1. Future Work</a></li>
+<li><a href="#_next_steps_for_the_innovation_program">9.2. Next Steps for the Innovation Program</a></li>
+<li><a href="#_next_steps_on_the_standards_program">9.3. Next Steps on the Standards Program</a></li>
+</ul>
+</li>
 <li><a href="#RevisionHistory">Appendix A: Revision History</a></li>
 <li><a href="#Bibliography">Appendix B: Bibliography</a></li>
 </ul>
@@ -647,7 +653,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <h2 id="_executive_summary"><a class="anchor" href="#_executive_summary"></a>2. Executive Summary</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The goal of the code sprint was to progress the specification of OGC APIs for Maps, Tiles and Styles. The sprint also sought to help to identify issues and options for addressing those issues.</p>
+<p>This Engineering Report (ER) summarizes the main achievements of the May 2021 OGC API Virtual Code Sprint, conducted between May 26 – 28, 2021. The goal of the code sprint was to progress the development of the draft OGC API standards for Maps, Tiles and Styles. The sprint also sought to help to identify issues and options for addressing those issues.</p>
 </div>
 <div class="paragraph">
 <p>The objectives of the code sprint were to:</p>
@@ -805,19 +811,22 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <p>For the purposes of this report, the definitions specified in Clause 4 of the OWS Common Implementation Standard <a href="https://portal.opengeospatial.org/files/?artifact_id=38867&amp;version=2">OGC 06-121r9</a> shall apply. In addition, the following terms and definitions apply.</p>
 </div>
 <div class="dlist">
-<div class="title">NOTE: Delete the first three terms because they are examples.</div>
 <dl>
+<dt class="hdlist1">&#9679; API </dt>
+<dd>
+<p>An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application, or service to other applications (adapted from ISO/IEC TR 13066-2:2016).</p>
+</dd>
 <dt class="hdlist1">&#9679; coordinate reference system </dt>
 <dd>
-<p>coordinate system that is related to the real world by a datum term name (source: ISO 19111)</p>
+<p>A coordinate system that is related to the real world by a datum term name (source: ISO 19111)</p>
 </dd>
-<dt class="hdlist1">&#9679; portrayal </dt>
+<dt class="hdlist1">&#9679; OpenAPI Document </dt>
 <dd>
-<p>presentation of information to humans (source: ISO 19117)</p>
+<p>A document (or set of documents) that defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification (<a href="https://www.openapis.org" class="bare">https://www.openapis.org</a>)</p>
 </dd>
-<dt class="hdlist1">&#9679; LiDAR </dt>
+<dt class="hdlist1">&#9679; Web API </dt>
 <dd>
-<p><strong>Light Detection and Ranging</strong>&#8201;&#8212;&#8201;a common method for acquiring point clouds through aerial, terrestrial, and mobile acquisition methods.</p>
+<p>API using an architectural style that is founded on the technologies of the Web [source: OGC API - Features - Part 1: Core]</p>
 </dd>
 </dl>
 </div>
@@ -862,15 +871,11 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 <div class="sect2">
 <h3 id="_user_needs_and_use_cases"><a class="anchor" href="#_user_needs_and_use_cases"></a>5.1. User Needs and Use Cases</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_user_needs_and_use_cases_2"><a class="anchor" href="#_user_needs_and_use_cases_2"></a>5.2. User Needs and Use Cases</h3>
 <div class="paragraph">
 <p>To help the sprint participants prioritise their efforts, the sprint organisers invited Natural Resources Canada (NRCan) to outline User Needs from NRCan&#8217;s perspective as a National Mapping Agency (NMA). This section summarizes the user needs and relates them to use cases envisaged for the OGC APIs in focus for the sprint.</p>
 </div>
 <div class="sect3">
-<h4 id="_introduction_to_natural_resources_canada"><a class="anchor" href="#_introduction_to_natural_resources_canada"></a>5.2.1. Introduction to Natural Resources Canada</h4>
+<h4 id="_introduction_to_natural_resources_canada"><a class="anchor" href="#_introduction_to_natural_resources_canada"></a>5.1.1. Introduction to Natural Resources Canada</h4>
 <div class="paragraph">
 <p>Natural Resources Canada (NRCan) is a part of the Federal Government of Canada responsible for natural resources, energy, minerals and metals, forests, earth sciences, mapping, and remote sensing.</p>
 </div>
@@ -882,13 +887,13 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 </div>
 <div class="sect3">
-<h4 id="_the_priorities_that_drive_the_need_for_apis"><a class="anchor" href="#_the_priorities_that_drive_the_need_for_apis"></a>5.2.2. The Priorities that drive the Need for APIs</h4>
+<h4 id="_the_priorities_that_drive_the_need_for_apis"><a class="anchor" href="#_the_priorities_that_drive_the_need_for_apis"></a>5.1.2. The Priorities that drive the Need for APIs</h4>
 <div class="paragraph">
 <p>There are specific priorities that drive what NRCan would like to see from OGC APIs. The key priorities that drive what NRCan would like to see from OGC APIs include for example: Climate Change, Response to disasters/extreme events, the Arctic, Trade, Sovereignty, and Indigenous Reconciliation. The government has a strong desire to have collaboration and innovation within government processing benefiting Canadian society broadly. Innovation provides a bridge between the government&#8217;s internal focus areas and how these will apply within Canada and its position in the world. So, indeed, all the OGC APIs that are being developed through this sprint will, in the future, help to benefit society.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_specific_needs"><a class="anchor" href="#_specific_needs"></a>5.2.3. Specific Needs</h4>
+<h4 id="_specific_needs"><a class="anchor" href="#_specific_needs"></a>5.1.3. Specific Needs</h4>
 <div class="paragraph">
 <p>OGC APIs have a substantial role to play in future NMAs. At NRCan, this role is likely to involve the development and provision of microservices in order to support the delivery of geospatial data, maps and analytics. This role can be described in terms of the following needs:</p>
 </div>
@@ -907,7 +912,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 </div>
 <div class="sect3">
-<h4 id="_sprint_area_of_interest"><a class="anchor" href="#_sprint_area_of_interest"></a>5.2.4. Sprint Area of Interest</h4>
+<h4 id="_sprint_area_of_interest"><a class="anchor" href="#_sprint_area_of_interest"></a>5.1.4. Sprint Area of Interest</h4>
 <div class="paragraph">
 <p>For demonstration purposes, Sprint participants were encouraged to publish specific data and maps for the following Areas of Interest (AOI):</p>
 </div>
@@ -922,7 +927,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ordnance_survey_datasets_for_the_sprints_europe_aoi"><a class="anchor" href="#_ordnance_survey_datasets_for_the_sprints_europe_aoi"></a>5.2.5. Ordnance Survey datasets for the Sprint&#8217;s Europe AOI</h4>
+<h4 id="_ordnance_survey_datasets_for_the_sprints_europe_aoi"><a class="anchor" href="#_ordnance_survey_datasets_for_the_sprints_europe_aoi"></a>5.1.5. Ordnance Survey datasets for the Sprint&#8217;s Europe AOI</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -958,7 +963,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 </div>
 <div class="sect2">
-<h3 id="_participants"><a class="anchor" href="#_participants"></a>5.3. Participants</h3>
+<h3 id="_participants"><a class="anchor" href="#_participants"></a>5.2. Participants</h3>
 <div class="paragraph">
 <p>Software developers and solutions architects from the following organizations registered to participate in the code sprint:</p>
 </div>
@@ -1326,7 +1331,38 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_5"><a class="anchor" href="#_implemented_solution_5"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>The CubeWerx server ("cubeserv") is an executable supports a wide variety of back ends including Oracle, MariaDB, SHAPE files, etc. It also supports a wide array of service-dependent output formats (e.g. GML, GeoJSON, Mapbox Vector Tiles, MapMP, etc.) and coordinate reference systems.  At the time of publishing this engineering report, the  CubeSERV OGC API - Features Server product is <a href="https://www.ogc.org/resource/products/details/?pid=1601">certified OGC compliant</a> to the OGC API - Features - Part 1: Core standard. The cubeserv product is implemented in C and currently implements the following OGC specifications:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Records - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Coverages - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Processes - Part 1: Core specification.</p>
+</li>
+<li>
+<p>All conformance classes and recommendations of the OGC API - Features - Part 1: Core standard.</p>
+</li>
+<li>
+<p>Multiple versions of the Web Map Service (WMS), Web Processing Service (WPS), Web Map Tile Service (WMTS) and Web Feature Service (WFS) standards</p>
+</li>
+<li>
+<p>A number of other "un-adopted" OGC web services including the Testbed-12 Web Integration Service, OWS-7 Engineering Report - GeoSynchronization Service, Web Object Service Implementation Specification.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect4">
@@ -1446,7 +1482,29 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_9"><a class="anchor" href="#_implemented_solution_9"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. GNOSIS Map Server supports multiple encodings including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), Mapbox Vector Tiles, GeoJSON, GeoECON, GML and MapML. An experimental server is available online at <a href="https://maps.ecere.com/ogcapi" class="bare">https://maps.ecere.com/ogcapi</a> and has been used in multiple OGC Innovation Program initiatives. At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is <a href="https://www.ogc.org/resource/products/details/?pid=1670">certified OGC compliant</a> to the OGC API - Features - Part 1: Core standard. For this code sprint, the server was configured to offer an endpoint supporting:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Coverages - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Processes - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect4">
@@ -1746,7 +1804,23 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_19"><a class="anchor" href="#_implemented_solution_19"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>GeoServer is a Java-based software server that allows users to view and edit geospatial data. Using open standards by the OGC, GeoServer allows for great flexibility in map creation and data sharing. For this code sprint, the server was configured to offer an endpoint supporting:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect4">
@@ -1866,7 +1940,29 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_23"><a class="anchor" href="#_implemented_solution_23"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>ldproxy is an implementation of the OGC API family of specifications, inspired on the W3C/OGC Spatial Data on the Web Best Practices. ldproxy is developed by interactive instruments GmbH, written in Java (Source Code) and is typically deployed using docker (DockerHub). The software originally started in 2015 as a Web API for feature data based on WFS 2.0 capabilities. In addition to the JSON/XML encodings, an emphasis is placed on an intuitive HTML representation.</p>
+</div>
+<div class="paragraph">
+<p>The current version supports WFS 2.0 instances as well as PostgreSQL/PostGIS databases as backends. It implements all conformance classes and recommendations of "OGC API - Features - Part 1: Core" and "OGC API - Features- Part 2: Coordinate Reference Systems By Reference", as well as other draft extensions (including Part 3 and Part 4). ldproxy also has draft implementations for additional resource types (Tiles, Styles). At the time of publishing this engineering report, the ldproxy 2.0 product is <a href="https://www.ogc.org/resource/products/details/?pid=1598">certified OGC compliant</a> to the OGC API - Features - Part 1: Core standard.</p>
+</div>
+<div class="paragraph">
+<p>For this code sprint, the server was configured to offer an endpoint supporting:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.</p>
+</li>
+<li>
+<p>Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect4">
@@ -2196,7 +2292,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_34"><a class="anchor" href="#_implemented_solution_34"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>MSC deployed an instance of pygeoapi and worked with OSGeo colleagues from GeoCat BV and Geobeyond to implement support for OGC API - Maps. The pygeoapi product is an open source Python server implementation of the OGC API suite of standards.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2646,7 +2742,7 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <div class="sect4">
 <h5 id="_implemented_solution_49"><a class="anchor" href="#_implemented_solution_49"></a>Implemented Solution</h5>
 <div class="paragraph">
-<p>TBA</p>
+<p>The MiraMon Map Server is a CGI application encoded in C language that is part of the MiraMon Geographic Information System (GIS) &amp; Remote Sensing (RS) suite. The software originally started 10 years ago as a WMS server in support of the Catalan Administration and CREAF data services. Currently the server implements WMS, WMTS and partially implements WFS and WCS. It also partially implements the OGC Sensor Observation Service (SOS) standard. It also includes prototype support for the draft OGC API - Maps and OGC API - Tiles specifications. In order to perform efficiently, it requires a process preparing the data to be offered. The server can interoperate with other vendors' clients. When combined with the MiraMon Map Client, the server offers additional functionality, including functionality recently developed for the Catalan Data Cube. The MiraMon Map Client is built using client-side JavaScript and can therefore run on any web browser.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2978,9 +3074,53 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 </div>
 </div>
 <div class="sect2">
-<h3 id="_topic_4"><a class="anchor" href="#_topic_4"></a>8.4. Topic 4</h3>
+<h3 id="_immediate_lessons"><a class="anchor" href="#_immediate_lessons"></a>8.4. Immediate Lessons</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The Tiles API is reasonably stable. We have seen different interpretations of how to apply styles to collections maps and the dataset maps.</p>
+</li>
+<li>
+<p>Evolution of WKSS into common TMS (the ones that are going to be registered). The evolution has taken us to a conclusion that WKSS.</p>
+</li>
+<li>
+<p>The concept of buildings blocks has been completely demonstrated. The three APIs have been successfully demonstrated together.</p>
+</li>
+<li>
+<p>The sprint has shown that a lot that is common can be shared across the APIs i.e. how much OGC API - Common - Part 2 facilitates the client implementation.</p>
+</li>
+<li>
+<p>The interaction between Maps, Tiles, Styles worked well. No major issues came up that could not be verified.</p>
+</li>
+<li>
+<p>More work needs to be done on Styles in general. e.g. where we use the styles has an impact on the resources.</p>
+</li>
+<li>
+<p>We focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the formats aspects of the styles (e.g. SymCore).</p>
+</li>
+<li>
+<p>While in the Tiles API we have developed a metadata model, in the Maps API there has been less interest in developing a specific metadata model.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_implications_for_nmas"><a class="anchor" href="#_implications_for_nmas"></a>8.5. Implications for NMAs</h3>
 <div class="paragraph">
-<p>TBA</p>
+<p>The sprint participants considered what the APIs will do to help meet the needs of NMAs. The following is a summary.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Providing the public with access to geospatial data and maps</strong>: The OGC APIs will make it easier for the general public to access maps through regular web browser technologies. For example, through OGC API - Maps it is now possible to access a complete map through a basic URL (i.e. no query parameters). OGC API - Tiles will make it easier to publish maps as vector tiles, which are becoming increasingly popular in the NMA community. The APIs are able to provide data in a way that 2.5D and 3D visualization clients are able to handle.</p>
+</li>
+<li>
+<p><strong>Facilitating analytics</strong>: OGC API - Tiles is able to publish tiled coverage data in such a way that makes it easier to 'stream' coverages for analysis at the screen resolution. This makes it possible to create histograms, vegetation indices, and other analytical reports all at the screen resolution. The flexibility of specifying the origin of the tiles will make it easier to combine regular OGC tiles with other tiles.</p>
+</li>
+<li>
+<p><strong>Reducing barriers to accessing geospatial data</strong>: All of the OGC APIs together make it easier to start with a dataset and then find a way to generate tiles and other resources. The OGC APIs are integrated in a very convenient way. The Styles API makes it possible for NMA&#8217;s to publish styles from a central location in a way that is consistent with how they publish data. The integrated environment makes it easier to manage things together.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -2989,7 +3129,60 @@ To obtain additional rights of use, visit <a href="http://www.opengeospatial.org
 <h2 id="conclusions"><a class="anchor" href="#conclusions"></a>9. Conclusions</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>TBA</p>
+<p>The code sprint facilitated the development and testing of prototype implementations of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. Further, the code sprint also enabled the participating developers to provide feedback to the editors of OGC standards. The code sprint was also able to identify ways through which the OGC APIs would help to meet the needs of NMAs. The code sprint therefore met all of its objectives and achieved its goal of progressing the development of the draft OGC API standards for Maps, Tiles and Styles.</p>
+</div>
+<div class="sect2">
+<h3 id="_future_work"><a class="anchor" href="#_future_work"></a>9.1. Future Work</h3>
+<div class="paragraph">
+<p>The sprint participants considered how the sprint’s outcomes could be incorporated into future OGC Standards Program and Innovation Program activities.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_next_steps_for_the_innovation_program"><a class="anchor" href="#_next_steps_for_the_innovation_program"></a>9.2. Next Steps for the Innovation Program</h3>
+<div class="paragraph">
+<p>There is a need to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>experiment with multidimensional data support in OGC APIs.</p>
+</li>
+<li>
+<p>explore how to turn legends into real data(objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).</p>
+</li>
+<li>
+<p>research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.</p>
+</li>
+<li>
+<p>experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering DSM&#8217;s and DDIL environments).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.</p>
+</li>
+<li>
+<p>experiment with non-grid coverages (e.g. point clouds).</p>
+</li>
+<li>
+<p>explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_next_steps_on_the_standards_program"><a class="anchor" href="#_next_steps_on_the_standards_program"></a>9.3. Next Steps on the Standards Program</h3>
+<div class="paragraph">
+<p>There is a need to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>specify a legend conformance class for the OGC API - Maps and OGC API - Tiles draft specifications.</p>
+</li>
+<li>
+<p>specify an 'info' conformance class for the OGC API - Maps and OGC API - Tiles  draft specifications.</p>
+</li>
+<li>
+<p>implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the WMS Best Practice for Time Dependent) e.g. the subset and datetime parameters</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

@@ -8,7 +8,7 @@ TBA
 
 ===== Implemented Solution
 
-TBA
+MSC deployed an instance of pygeoapi and worked with OSGeo colleagues from GeoCat BV and Geobeyond to implement support for OGC API - Maps. The pygeoapi product is an open source Python server implementation of the OGC API suite of standards.
 
 ===== Proposed Alternatives
 
@@ -17,4 +17,3 @@ TBA
 ===== Experiences with OGC API Specifications
 
 TBA
-

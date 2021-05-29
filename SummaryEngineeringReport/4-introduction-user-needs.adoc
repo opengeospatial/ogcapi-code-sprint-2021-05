@@ -1,4 +1,3 @@
-=== User Needs and Use Cases
 
 To help the sprint participants prioritise their efforts, the sprint organisers invited Natural Resources Canada (NRCan) to outline User Needs from NRCan's perspective as a National Mapping Agency (NMA). This section summarizes the user needs and relates them to use cases envisaged for the OGC APIs in focus for the sprint.
 
