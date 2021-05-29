@@ -21,7 +21,6 @@
 * Global Nomad GIS Services
 * Heazeltech
 * interactive instruments GmbH
-* intern
 * İstanbul Technical University
 * ITU
 * JLL
