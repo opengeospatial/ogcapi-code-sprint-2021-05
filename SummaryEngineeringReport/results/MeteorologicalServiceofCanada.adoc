@@ -2,7 +2,7 @@
 
 The Meteorological Service of Canada (MSC) is a federal deparment of the Government of Canada. MSC works in close collaboration with NRCan to publish weather, climate and water data to the general public and to help meet Canada's international commitments with the World Meteorological Organization (WMO).
 
-The data is published using an instance of the pygeoapi product. The pygeoapi product is an open source Python server implementation of the OGC API suite of standards. The product supports the microservices approach and allows scalability. MSC deployed an instance of pygeoapi and worked with OSGeo colleagues from GeoCat BV and Geobeyond to implement an endpoint supporting:
+The data is published using an instance of the pygeoapi product. The pygeoapi product is an open source Python server implementation of the OGC API suite of standards. The product supports the microservices approach and allows scalability. At the time of publishing this engineering report, the pygeoapi 0.9.0 product is https://www.ogc.org/resource/products/details/?pid=1663[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. MSC deployed an instance of pygeoapi and worked with OSGeo colleagues from GeoCat BV and Geobeyond to implement an endpoint supporting:
 
 * The draft OGC API - Maps - Part 1: Core specification.
 * The draft OGC API - Tiles - Part 1: Core specification.
