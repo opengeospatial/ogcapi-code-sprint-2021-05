@@ -6,11 +6,3 @@ GeoSolutions deployed an instance of the GeoServer product. GeoServer is a Java-
 * Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.
 * Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
 * Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.
-
-===== Proposed Alternatives
-
-TBA
-
-===== Experiences with OGC API Specifications
-
-TBA

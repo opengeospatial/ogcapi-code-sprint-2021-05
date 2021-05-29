@@ -1,0 +1,45 @@
+[appendix]
+[[annex_a]]
+= Prototype Legend Support
+
+The map-level endpoints that the CubeWerx OGC API demo server at https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa implemented for this are:
+
+`/map/legend` - A legend image showing a graphical representation of one or more collections as they would appear in the corresponding map. e.g.:
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/map/legend?transparent=false
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/map/legend?scale=150000&transparent=false
+
+`/styles/{styleId}/map/legend` - A legend image showing a graphical representation of one or more collections as they would appear in the corresponding map in the specified style. e.g.:
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/styles/Night/map/legend?transparent=false
+
+`/collections{collectionId}/map/legend` - A legend image showing a graphical representation of the specified collection as it would appear in the corresponding map. e.g.:
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/collections/TransportationGroundCrv/map/legend?transparent=false
+
+`/collections/{collectionId}/styles/{styleId}/map/legend` - A legend image showing a graphical representation of the specified collection as it would appear in the corresponding map in the specified style. E.g.:
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/collections/TransportationGroundCrv/styles/Night/map/legend?transparent=false
+
+Each of these endpoints takes the following optional parameters:
+
+* *transparent* - Whether or not the background of the image should be transparent (when supported by the requested image format).
+* *bgcolor* - Hexadecimal red-green-blue color value for the background color. If not specified, the background color specified by the style (0xFFFFFF by default) will be used.
+* *textcolor* - Hexadecimal red-green-blue color value for the text color. If not specified, a color that contrasts the background color will be used.
+* *scale* - If specified, a legend graphic specific to this scale (expressed as a scale denominator) will be returned. Otherwise, a possibly-composite image providing a legend graphic for each of the scale ranges defined by the style will be returned.
+* *pixelSize* - The physical linear size of a display pixel in millimetres. If the display device has non-square pixels, then sqrt(width * height) should be provided. The pixel units and scale rules in a style definition are with respect to a standardized rendering pixel size of 0.28mm. Knowledge of the actual pixel size of the display device will allow the renderer to produce a map with the intended look even if the actual pixel size is significantly different from the standardized rendering pixel size.
+* *f* - A token indicating the content type to return. Overrides the HTTP "Accept" header if present. A value of "jop" (content type "image/x-jpegorpng") indicates that either JPEG or PNG should be returned, whichever the server deems to be most appropriate for this particular image.
+
+The CubeWerx implementation also supports legends at the tile-level endpoints (which indicate their zoom level via the {tileMatrixSetId} and {tileMatrix} pathe elements):
+
+`/collections/{collectionId}/map/tiles/{tileMatrixSetId}/{tileMatrix}/legend` - A legend image showing a graphical representation of the specified collection as it would appear in the corresponding map tiles of the specified zoom level. e.g:
+
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/collections/CultureSrf/map/tiles/smerc/12/legend?transparent=false
+
+`/collections/{collectionId}/styles/{styleId}/map/tiles/{tileMatrixSetId}/{tileMatrix}/legend` - A legend image showing a graphical representation of the specified collection as it would appear in the corresponding map tiles of the specified zoom level in the specified style. E.g.:
+
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/collections/CultureSrf/styles/Night/map/tiles/smerc/12/legend?transparent=false
+
+CubeWerx also experimented with the following legend endpoint:
+
+`/styles/{styleId}/legend` - A legend image showing a graphical representation of the specified style, broken down by each of the collections that it's capable of rendering.
+
+https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/styles/Night/legend?transparent=false
+
+However, this returns practically the same legend as ``/styles/{styleId}/map/legend` so it is unclear whether a separate legend endpoint here is warranted.

@@ -5,21 +5,52 @@ The participants used the Gitter platform for written discussion. This was in ad
 
 [#img_gitter,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot of Gitter channel
-image::images/gitter.png[width=600,align="center"]
+image::images/gitter.png[width=800,align="center"]
 
 A screenshot of the GitHub repository is shown below in <<img_github>>. The GitHub repository can be found at https://github.com/opengeospatial/ogcapi-code-sprint-2021-05
 
 [#img_github,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot of GitHub repository
-image::images/github.png[width=600,align="center"]
+image::images/github.png[width=800,align="center"]
 
 The next subsections provide a summary of the discussion.
 
-=== Topic 1
+=== OGC API support for different approaches to organising styles, layers and data sources
+
+There was a https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/issues/15[discussion] on how OGC APIs could support different approaches to organising styles, layers and data sources. The sprint participants observed that there are two different approaches of how SLD is used by implementations. One approach involves having the SLD at the top level, whereas the other approach does not. The sprint participants were asked the question "Should we have two conformance classes for the different approaches?".  https://github.com/opengeospatial/ogcapi-styles/issues/5[Issue#5 on the OGC API - Styles repository] includes a proposal how to change the specification to better support SLD as an encoding. After discussing the topic during the sprint, the sprint participants made the recommendation that: There is a need to have two separate conformance classes to support the different paradigms.
+
+=== Support for legends
+
+There was a https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/issues/17[discussion] on the need for support for legends. Currently legends are not supported in OGC API - Maps nor OGC API - Styles, however it is expected that client applications will need or want to present a legend for the information on a map. To facilitate the discussion, CubeWerx provided the paths to a Cubeserv implementation of a legend capability. The paths are listed in <<annex_a,Annex A>>. A screenshot from a prototype built using pygeoapi are shown in <<img_pygeoapi_legend1>>.
+
+[#img_pygeoapi_legend1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a legend generated using pygeoapi
+image::images/pygeoapi_legend1.png[width=800,align="center"]
+
+The sprint participants also noted that if a legend is a resource in OGC API - Maps, it could be a bitmap graphic of a legend. However, if it is a resource in OGC API - Styles, then it should be a data resource, so that clients can render the legend as they wish and that supports combining information from multiple legends.
+
+=== Changes to a style with multiple occurrences in an API
+
+There was a https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/issues/18[discussion] regarding how changes to a style with multiple occurrences in an API are executed. The sprint participants were asked the question "If a style `foo` is used in several places in an API (that is, there are several resources where the path includes `/styles/foo` somewhere), does a PUT/DELETE on that style affect all occurrences of the style or only the one on which the operation is executed? In other words, is it only one resource with multiple URIs or are these separate resources?". For example, for an implementation that has a "night" style at `/styles/night`, the participants considered whether changes to that style should be propagated to other instances of the same style e.g. `/collection/foo/styles/night`.
+
+After discussing this topic, the sprint participants proposed adding the following statement to the OGC API - Styles specification:
+
+[quote]
+____
+A service may implement HTTP PUT and/or HTTP DELETE methods for the `/collections/{collectionId}/styles/{styleId}` endpoints. If implemented, these methods shall have the effect of adding/replacing or deleting the definition of the specified style as it pertains to the specified collection. E.g., after a DELETE of `/collections/foo/styles/night`, a future GET of `/collections/foo/styles/night` should return a 404 Not Found, whereas a future GET of `/styles/night` should return a style definition that lacks any mention of collection foo.
+____
+
+
+
+=== Topic 4
 
 TBA
 
-=== Topic 2
+=== Topic 5
+
+TBA
+
+=== Topic 6
 
 TBA
 
