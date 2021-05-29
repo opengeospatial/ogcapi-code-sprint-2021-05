@@ -24,4 +24,4 @@ There is a need to:
 
 * specify a legend conformance class for the OGC API - Maps and OGC API - Tiles draft specifications.
 * specify an 'info' conformance class for the OGC API - Maps and OGC API - Tiles  draft specifications.
-* implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the WMS Best Practice for Time Dependent) e.g. the subset and datetime parameters
+* implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the WMS Best Practice for Time Dependent) e.g. the subset and datetime parameters.
