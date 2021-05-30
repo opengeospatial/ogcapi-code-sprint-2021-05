@@ -25,7 +25,7 @@ There was a https://github.com/opengeospatial/ogcapi-code-sprint-2021-05/issues/
 
 [#img_pygeoapi_legend1,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot from a legend generated using pygeoapi
-image::images/pygeoapi_legend1.png[width=800,align="center"]
+image::images/pygeoapi_legend1.png[width=300,align="center"]
 
 The sprint participants also noted that if a legend is a resource in OGC API - Maps, it could be a bitmap graphic of a legend. However, if it is a resource in OGC API - Styles, then it should be a data resource, so that clients can render the legend as they wish and that supports combining information from multiple legends.
 
@@ -40,19 +40,55 @@ ____
 A service may implement HTTP PUT and/or HTTP DELETE methods for the `/collections/{collectionId}/styles/{styleId}` endpoints. If implemented, these methods shall have the effect of adding/replacing or deleting the definition of the specified style as it pertains to the specified collection. E.g., after a DELETE of `/collections/foo/styles/night`, a future GET of `/collections/foo/styles/night` should return a 404 Not Found, whereas a future GET of `/styles/night` should return a style definition that lacks any mention of collection foo.
 ____
 
+=== Multiple dimensions in OGC API - Maps
+
+In the MetOcean context, there is a need to consider addressing dimensions as part of rendering in OGC API - Maps. This need is similar, in part, to the need that triggered the development of the OGC Best Practice for using Web Map Services (WMS) with Time-Dependent or Elevation-Dependent Data. So the Best Practice document can be consulted for information on the approach taken by the previous generation of OGC web service standards. A given collection would need to advertise its dimensions and their relevant extents (e.g. in a MetOcean/NWP context there could be dimensions for the model run/reference time, forecast time, elevation/pressure level, etc.)
+
+It was noted that the Maps API already supports `datetime` and `subset` parameters, as demonstrated by Ecere's implementation from this sprint and the Hexagon implementation from a previous sprint. Example queries from the Ecere implementation are below:
+
+https://maps.ecere.com/ogcapi/collections/blueMarble/styles/default/map?datetime=2004-07
+
+https://maps.ecere.com/ogcapi/collections/blueMarble/styles/default/map?subset=time(2004-11)
+
+The sprint participants observed that the approach should ideally be the same for non-static tiles or maps as the approach taken for the underlying source data.
+
+If the source data is features, support parameters like datetime, filter, collections, properties, etc. like on the OGC API - Features resources to filter the features and reduce the properties that are returned. This approach was demonstrated by the ldproxy product and was part of the experiments in the OGC Vector Tiles Pilot 2. An example is below:
+
+https://demo.ldproxy.net/daraa/tiles/WebMercatorQuad/11/827/1229?collections=AgricultureSrf,TransportationGroundCrv&datetime=2012-02-12T00:00:00Z/..&properties=F_CODE
 
 
-=== Topic 4
+=== Styles, Tiles: Metadata review
 
-TBA
+The sprint participants conducted a review of the metadata elements specified by OGC APIs for Maps, Tiles, and Styles. The review uncovered that there is significant overlap between the metadata for a style and for a tileset. At the same time, there are issues and differences that should be addressed. Harmonization of the metadata elements, should also be consistent with OGC API - Records. Specific observations and proposals are listed below:
 
-=== Topic 5
+* "title" and "version" are the same.
+* "abstract" vs "description". Proposal: use "description".
+* "keywords": Styles API uses strings, Tiles API uses a more complex model. Note that the Records API uses strings for "keywords", too. For controlled vocabularies, "themes" is used. Proposal: restrict "keywords" to strings.
+* The Styles and Tiles API use "pointOfContact", whereas the Records API uses "contactpoint". Proposal: agree on a single name.
+* The Styles and Tiles APIs use "accessConstraints" with a fixed list from the intelligence domain. At the same time more generally useful information like "license" is missing. Proposal: add "license" and drop "accessConstraints". Communities that need the "accessConstraints" elements can always add it through an extension.
+* The Tiles API has "publisher", whereas the Styles API does not. The Records API has it, too. Proposal: add "publisher" to the Styles API.
+* The Styles API has a fixed "scope" (value "style"), whereas the Tiles API does not. The Records API instead has "type", a URI. Proposal: harmonize.
+* The Styles API has various dates in "dates", whereas the Tiles API has them in "date". The Records API only has "created" and "updated", but not embedded in a data type. Proposal: Follow the approach from the Records API.
+* The Styles and Tiles APIs both have "layers", but with different content.
+* * "abstract" vs "description". Proposal: use "description. See #31.
+* * The Styles API has "type" (point, line, polygon, geometry, raster), whereas the Tiles API has "dataType" (vector, coverage, map) and "geometryType" (points, lines, polygons). Proposal: use "dataType" and "geometryType".
+* * The Styles API has "attributes" (the OpenAPI 3.0 schema for each attribute), whereas the Tiles API has "propertiesSchema" (a subset of JSON Schema describing an object where each attribute is a property plus some extensions to JSON Schema like "observedProperty" or "uom"). Proposal: Use standard JSON Schema without restrictions. Add a recommendation for a profile, similar to the approach taken by Features for Queryables.
+* There is "mediaType" as a string, but the description implies that there can be multiple media types. Proposal: Either change the element to an array, or revise the description to state a maximum occurrence of 1.
 
-TBA
+There was also an observation made regarding the Tiles API, that the use of scaleDenominator, cellSize and/or the tileMatrix could lead to confusion. This is because every client would have to be able to handle all of them and convert them to the internal mechanism that the client uses. There was a suggestion to pick one to make it easier for clients.
 
-=== Topic 6
+It was acknowledged across the sprint that there is a need to request feedback from Client implementors regarding whether to keep scaleDenominator, cellSize, tileMatrix elements, and that there are several benefits to keeping all of the elements. The sprint participants recommended that, for the ETS, if the server provides the scaleDenominator, cellSize, tileMatrix elements, the ETS should check if they are consistent to a significant number of digits (e.g. at least 12 digits).
 
-TBA
+After discussing the results of the metadata review, the sprint participants noted that there is a lot of value in dropping the 'accessConstraints' field and going with 'license'. Whereas 'accessConstraints' is used more in implementations of ISO 19115, the term 'license' is used in Dublin Core and DCAT implementations. Therefore, the term 'license' may be the more general term to use - between the two terms.
+
+The sprint participants recommended that a review of the metadata in OGC API - Common, - Maps , -Tiles be carried out and similarities/differences should be discussed in a future multi-SWG meeting.
+
+=== Suggested styleId when creating a style
+
+The Styles API extends on the generic Create/Replace/Delete requirements class, i.e., styles are always created with POST and the server assigns the styleId. The server is free to parse the submitted stylesheet to determine a meaningful `styleId`, if it wants, but that is not possible in style encodings that do not include an identifier.
+
+The Sprint participants noted that this potentially could be addressed by adding an HTTP header that clients could use to suggest a `styleId` with a HTTP POST request. The server would be free to ignore the suggestion. It was also noted that HTTP PUT could also be used for a similar purpose, in accordance with RFC 2616, as demonstrated by the CubeWerx implementation's acceptance of an HTTP PUT `/styles/{styleId}` request to create (or replace) a style with a specific ID. This issue was highlighted for further discussion in the SWGs because HTTP PUT is the typical way of allowing a client to create a resource with a client-defined URI, whereas HTTP POST is for situations where the server should assign a URI.
+
 
 === Summary of Code Sprint Outcomes
 

@@ -56,11 +56,81 @@ All questions regarding this document should be directed to the editor or the co
 |====================
 |Name |Organization | Role
 |Gobe Hobona | Open Geospatial Consortium | Editor
-|Nazih Fino | Global Nomad GIS Services |Contributor
-|((Full Name)) | ((from org)) |Contributor
-|((Full Name)) | ((from org)) |Contributor
-|((Full Name)) | ((from org)) |Contributor
-|((Full Name)) | ((from org)) |Contributor
+|	Adrian Alvarez	|	APCO	|	Contributor
+|	Pelle Arvinder	|	Carmenta AB	|	Contributor
+|	Nelio Matos	|	Connected Places Catapult	|	Contributor
+|	Gaj Bala	|	CRTC	|	Contributor
+|	Panagiotis (Peter) Vretanos	|	CubeWerx Inc.	|	Contributor
+|	Keith Pomakis	|	CubeWerx Inc.	|	Contributor
+|	Tino Kastbjerg Stigsen	|	Danish Defense	|	Contributor
+|	Yasser Othman	|	EAD	|	Contributor
+|	Joana Simoes	|	EarthPulse	|	Contributor
+|	Antonio Cerciello	|	EarthPulse	|	Contributor
+|	Diego Caraffini	|	Ecere Corporation	|	Contributor
+|	Patrick Dion	|	Ecere Corporation	|	Contributor
+|	Jerome St-Louis	|	Ecere Corporation	|	Contributor
+|	James Munroe	|	Elemental Earth Data Ltd.	|	Contributor
+|	Hisham Massih	|	Esri	|	Contributor
+|	Anne Fitz	|	Esri	|	Contributor
+|	Richie Carmichael	|	Esri	|	Contributor
+|	Adewale Shittu	|	Federal University of Technology Akure 	|	Contributor
+|	Serge Lévesque	|	Fisheries and Oceans Canada	|	Contributor
+|	Rowan Winsemius	|	FrontierSI	|	Contributor
+|	Jeff McKenna	|	GatewayGeo	|	Contributor
+|	Francesco Bartoli	|	Geobeyond Srl	|	Contributor
+|	Paul van Genuchten	|	GeoCat BV	|	Contributor
+|	Gérald Fenoy	|	GeoLabs	|	Contributor
+|	Andrea Aime	|	GeoSolutions	|	Contributor
+|	Oscar Díaz	|	GeoSolutions	|	Contributor
+|	Susie Mielby	|	Geus	|	Contributor
+|	Nazih Fino	|	Global Nomad GIS Services	|	Contributor
+|	Sara Gholamian	|	Gozar_e No	|	Contributor
+|	Charles Heazel	|	Heazeltech	|	Contributor
+|	Clemens Portele	|	interactive instruments GmbH	|	Contributor
+|	Muhammed Mete	|	İstanbul Technical University	|	Contributor
+|	Berke Şentürk	|	ITU	|	Contributor
+|	Zack Zhang	|	JLL	|	Contributor
+|	Lorena Hernández	|	European Commission - Joint Research Centre	|	Contributor
+|	Bryan Evans	|	Kinder Institute at Rice University	|	Contributor
+|	Chris Gagnon	|	Kongsberg Geospatial	|	Contributor
+|	Eric Tse	|	Lexco Limited	|	Contributor
+|	Philippe Pinheiro	|	Luxembourg Institute of Science and Technology	|	Contributor
+|	Rajveer Shekhawat	|	Manipal University Jaipur	|	Contributor
+|	Tom Kralidis	|	Meteorological Service of Canada	|	Contributor
+|	Gonzalo Nogueras	|	MetOffice	|	Contributor
+|	Ali Chettih	|	Montefiore IT	|	Contributor
+|	Cameron Wilson	|	Natural Resources Canada	|	Contributor
+|	Ryan Ahola	|	Natural Resources Canada	|	Contributor
+|	Ahmed Ragab	|	Natural Resources Canada	|	Contributor
+|	Bruno Kinoshita	|	NIWA	|	Contributor
+|	Azadeh Ashoori	|	Natural Resources Canada	|	Contributor
+|	Pradeep Alva	|	National University of Singapore	|	Contributor
+| Scott Simmons | Open Geospatial Consortium | Contributor
+| Scott Serich | Open Geospatial Consortium | Contributor
+|	Angelos Tzotsos	|	Open Source Geospatial Foundation	|	Contributor
+|	Michael Gordon	|	Ordnance Survey	|	Contributor
+|	Chris Holmes	|	Planet	|	Contributor
+|	Tim Schaub	|	Planet	|	Contributor
+|	Basile Goussard	|	Promethee	|	Contributor
+|	Tarron Newman	|	Red Helmet Technology	|	Contributor
+|	Senthil Rajrndran	|	RMSI Pvt Ltd 	|	Contributor
+|	Yohann Hazan	|	SDIS33	|	Contributor
+|	Darrel Ronald	|	Spatiomatics	|	Contributor
+|	Davince Koyo	|	Synergetic systems	|	Contributor
+|	Núria Julià Selvas	|	UAB-CREAF	|	Contributor
+|	Joan Maso	|	UAB-CREAF	|	Contributor
+|	Ingrid Santana	|	UFMG	|	Contributor
+|	Matthew Walker	|	UK Defence Science and Technology Laboratory	|	Contributor
+|	Paul Walsh	|	UK Defence Science and Technology Laboratory	|	Contributor
+|	Nick Bennett	|	UK Defence Science and Technology Laboratory	|	Contributor
+|	Jonathan Lewis	|	UK Hydrographic Office	|	Contributor
+|	Pablo Zader	|	UNC	|	Contributor
+|	Andres Herrera	|	Univalle	|	Contributor
+|	Joseph Olusina	|	University of Lagos	|	Contributor
+|	Amy Youmans	|	US Army Geospatial Center	|	Contributor
+|	Jeff Harrison	|	US Army Geospatial Center	|	Contributor
+|	Huajun Zhang	|	US Census	|	Contributor
+|	Ujjwal Yadav	|	Uttar Pradesh Remote Sensing Application Center 	|	Contributor
 |====================
 
 
