@@ -1,11 +1,24 @@
 ==== Ecere Corporation
 
-The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. GNOSIS Map Server supports multiple encodings including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), Mapbox Vector Tiles, GeoJSON, GeoECON, GML and MapML. An experimental server is available online at https://maps.ecere.com/ogcapi and has been used in multiple OGC Innovation Program initiatives. At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is https://www.ogc.org/resource/products/details/?pid=1670[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. For this code sprint, the server was configured to offer an endpoint supporting:
+The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. GNOSIS Map Server supports multiple encodings including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), Mapbox Vector Tiles, GeoJSON, GeoECON, GML and MapML. An experimental server is available online at https://maps.ecere.com/ogcapi and has been used in multiple OGC Innovation Program initiatives. At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is https://www.ogc.org/resource/products/details/?pid=1670[certified OGC compliant] to the OGC API - Features - Part 1: Core standard.
 
+A screenshot from a demonstration of the GNOSIS Map Server product during the code sprint is shown in <<img_gnosis3>>.
 
-* Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Coverages - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Processes - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.
+[#img_gnosis3,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a demonstration of GNOSIS Map Server
+image::images/gnosis3.png[width=800,align="center"]
+
+Along with deployment of an instance of the GNOSIS Map Server, personnel from Ecere also demonstrated access to OGC APIs through GNOSIS Cartographer. A screenshot from a demonstration of the GNOSIS Cartographer product during the code sprint is shown in <<img_gnosis1>>.
+
+[#img_gnosis1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a demonstration of GNOSIS Cartographer
+image::images/gnosis1.png[width=800,align="center"]
+
+For this code sprint, the GNOSIS Map Server instance deployed for the sprint was configured to offer an endpoint supporting:
+
+* The draft OGC API - Maps - Part 1: Core specification
+* The draft OGC API - Tiles - Part 1: Core specification
+* The draft OGC API - Styles - Part 1: Core specification
+* The draft OGC API - Coverages - Part 1: Core specification
+* The draft OGC API - Processes - Part 1: Core specification
+* The OGC API - Features - Part 1: Core Standard

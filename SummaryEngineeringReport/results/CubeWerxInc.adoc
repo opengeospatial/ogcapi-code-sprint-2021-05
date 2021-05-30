@@ -1,13 +1,25 @@
 ==== CubeWerx Inc.
 
-The CubeWerx server ("cubeserv") is an executable supports a wide variety of back ends including Oracle, MariaDB, SHAPE files, etc. It also supports a wide array of service-dependent output formats (e.g. GML, GeoJSON, Mapbox Vector Tiles, MapMP, etc.) and coordinate reference systems.  At the time of publishing this engineering report, the  CubeSERV OGC API - Features Server product is https://www.ogc.org/resource/products/details/?pid=1601[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. The cubeserv product is implemented in C and currently implements the following OGC specifications:
+The CubeWerx server ("cubeserv") is an executable supports a wide variety of back ends including Oracle, MariaDB, SHAPE files, etc. It also supports a wide array of service-dependent output formats (e.g. GML, GeoJSON, Mapbox Vector Tiles, MapMP, etc.) and coordinate reference systems.  At the time of publishing this engineering report, the  CubeSERV OGC API - Features Server product is https://www.ogc.org/resource/products/details/?pid=1601[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. A screenshot of the landing page of a CubeSERV instance from a demonstration of the product during the code sprint is shown in <<img_cubeserv1>>.
 
-* Multiple conformance classes and recommendations of the draft OGC API - Maps - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Records - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Coverages - Part 1: Core specification.
-* Multiple conformance classes and recommendations of the draft OGC API - Processes - Part 1: Core specification.
-* All conformance classes and recommendations of the OGC API - Features - Part 1: Core standard.
+[#img_cubeserv1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a demonstration of CubeSERV
+image::images/cubeserv1.png[width=800,align="center"]
+
+Another screenshot of the CubeSERV instance, showing an HTML view of the API definition, is shown in <<img_cubeserv2>>.
+
+[#img_cubeserv2,reftext='{figure-caption} {counter:figure-num}']
+.A second screenshot from a demonstration of CubeSERV
+image::images/cubeserv2.png[width=800,align="center"]
+
+The cubeserv product is implemented in C and currently implements the following OGC specifications:
+
+* The draft OGC API - Maps - Part 1: Core specification
+* The draft OGC API - Tiles - Part 1: Core specification
+* The draft OGC API - Styles - Part 1: Core specification
+* The draft OGC API - Records - Part 1: Core specification
+* The draft OGC API - Coverages - Part 1: Core specification
+* The draft OGC API - Processes - Part 1: Core specification
+* The OGC API - Features - Part 1: Core Standard
 * Multiple versions of the Web Map Service (WMS), Web Processing Service (WPS), Web Map Tile Service (WMTS) and Web Feature Service (WFS) standards
 * A number of other "un-adopted" OGC web services including the Testbed-12 Web Integration Service, OWS-7 Engineering Report - GeoSynchronization Service, Web Object Service Implementation Specification.

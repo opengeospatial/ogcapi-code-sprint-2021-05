@@ -117,8 +117,8 @@ All questions regarding this document should be directed to the editor or the co
 |	Yohann Hazan	|	SDIS33	|	Contributor
 |	Darrel Ronald	|	Spatiomatics	|	Contributor
 |	Davince Koyo	|	Synergetic systems	|	Contributor
-|	Núria Julià Selvas	|	UAB-CREAF	|	Contributor
-|	Joan Maso	|	UAB-CREAF	|	Contributor
+|	Núria Julià Selvas	|	Universitat Autònoma de Barcelona (CREAF)	|	Contributor
+|	Joan Maso	|	Universitat Autònoma de Barcelona (CREAF)	|	Contributor
 |	Ingrid Santana	|	UFMG	|	Contributor
 |	Matthew Walker	|	UK Defence Science and Technology Laboratory	|	Contributor
 |	Paul Walsh	|	UK Defence Science and Technology Laboratory	|	Contributor

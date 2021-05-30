@@ -42,7 +42,7 @@ include::results/GeoSolutions.adoc[]
 
 //include::results/Heazeltech.adoc[]
 
-//include::results/interactiveinstrumentsGmbH.adoc[]
+include::results/interactiveinstrumentsGmbH.adoc[]
 
 //include::results/İstanbulTechnicalUniversity.adoc[]
 
