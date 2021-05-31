@@ -20,7 +20,7 @@ We started by installing and deploying the https://pygeoapi.io/[pygeoapi], and w
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com:5000/
 
-image::images/pygeoapi_screenshot.png
+image::{imagesdir}/pygeoapi_screenshot.png
 
 During this process we become aware of a bug on the OpenAPI representation of the get tile request.
 
