@@ -1,6 +1,6 @@
 ==== EarthPulse
 
-EarthPulse is an SME which operates within the fields of data engineering and data analytics. Its staff are experts in the areas of data analytics, full-stack development, Big Data, product development and access, management and processing of data sources such as geospatial or textual data.
+https://earthpulse.pt/[EarthPulse] is an SME which operates within the fields of data engineering and data analytics. Its staff are experts in the areas of data analytics, full-stack development, Big Data, product development and access, management and processing of data sources such as geospatial or textual data.
 
 EarthPulse is commited to Free and Open Source software (FOSS) and open standards.
 
