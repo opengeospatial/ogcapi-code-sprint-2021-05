@@ -20,6 +20,8 @@ We started by installing and deploying the https://pygeoapi.io/[pygeoapi], and w
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com:5000/
 
+image: images/pygeoapi_screenshot.png
+
 During this process we become aware of a bug on the OpenAPI representation of the get tile request.
 
 A PR was created to address this issue (already merged to the core):
@@ -42,6 +44,7 @@ On https://github.com/PascalLike/leaflet-ogc-layers[this] fork, we created an in
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com/
 
+We have failed to display the vector tiles from the deployed server on this client, although it specifically implements an ogcTilesLayer (maybe the calls were implemented to raster tiles only?). An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here].
 
 ===== Proposed Alternatives
 
