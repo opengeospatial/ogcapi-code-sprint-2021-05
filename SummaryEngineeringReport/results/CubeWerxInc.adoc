@@ -1,6 +1,6 @@
 ==== CubeWerx Inc.
 
-The CubeWerx server ("cubeserv") is an executable supports a wide variety of back ends including Oracle, MariaDB, SHAPE files, etc. It also supports a wide array of service-dependent output formats (e.g. GML, GeoJSON, Mapbox Vector Tiles, MapMP, etc.) and coordinate reference systems.  At the time of publishing this engineering report, the  CubeSERV OGC API - Features Server product is https://www.ogc.org/resource/products/details/?pid=1601[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. A screenshot of the landing page of a CubeSERV instance from a demonstration of the product during the code sprint is shown in <<img_cubeserv1>>.
+The CubeWerx server ("cubeserv") supports a wide variety of back ends including Oracle, MariaDB, SHAPE files, etc. It also supports a wide array of service-dependent output formats (e.g. GML, GeoJSON, Mapbox Vector Tiles, MapMP, etc.) and coordinate reference systems.  At the time of publishing this engineering report, the  CubeSERV OGC API - Features Server product is https://www.ogc.org/resource/products/details/?pid=1601[certified OGC compliant] to the OGC API - Features - Part 1: Core standard. A screenshot of the landing page of a CubeSERV instance from a demonstration of the product during the code sprint is shown in <<img_cubeserv1>>.
 
 [#img_cubeserv1,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot from a demonstration of CubeSERV
