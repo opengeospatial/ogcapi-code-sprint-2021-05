@@ -3,15 +3,11 @@ To help the sprint participants prioritize their efforts, the sprint organizers 
 
 ==== Introduction to Natural Resources Canada
 
-Natural Resources Canada (NRCan) is a part of the Federal Government of Canada responsible for natural resources, energy, minerals and metals, forests, earth sciences, mapping, and remote sensing.
-
-The broad mandate of NRCan is to enhance responsible development and use of Canada's natural resources and improve the competitiveness of Canada's natural resources products within many areas such as Mapping Forestry, Mining/Geology, Energy and Energy Efficiency, Earth Observation. Geospatial data plays a key role in all of the aforementioned areas, hence NRCan's interest in the development of OGC APIs.
-
-As the NMA of Canada, NRCan plays a critical nation-wide role in the distribution of authoritative geospatial data products, including cartographic products such as maps.
+Natural Resources Canada (NRCan) is a part of the Federal Government of Canada. NRCan is mandated to ensure the sustainable development of Canada's natural resources, allowing the department's work to explore energy, minerals and metals, forests, earth sciences, mapping, and remote sensing. Geospatial data plays a key role in all of the aforementioned areas, hence NRCan's interest in the development of OGC APIs. As the NMA of Canada, NRCan plays a critical nation-wide role in the distribution of authoritative geospatial data products, including cartographic products such as maps.
 
 ==== The Priorities that drive the Need for APIs
 
-There are specific priorities that drive what NRCan would like to see from OGC APIs. The key priorities that drive what NRCan would like to see from OGC APIs include for example: Climate Change, Response to disasters/extreme events, the Arctic, Trade, Sovereignty, and Indigenous Reconciliation. The government has a strong desire to have collaboration and innovation within government processing benefiting Canadian society broadly. Innovation provides a bridge between the government's internal focus areas and how these will apply within Canada and its position in the world. So, indeed, all the OGC APIs that are being developed through this sprint will, in the future, help to benefit society.
+There are specific priorities that drive what NRCan would like to see from OGC APIs. These include for example: climate change, response to disasters/extreme events, the Arctic, trade, sovereignty, and Indigenous reconciliation. The government has a strong desire to have collaboration and innovation within government processes in order to benefit Canadian society broadly. Innovation provides a bridge between the government's internal focus areas and how these will apply within Canada and its position in the world. So, indeed, all the OGC APIs that are being developed through this sprint will, in the future, help to benefit society.
 
 
 ==== Specific Needs
@@ -20,9 +16,9 @@ OGC APIs have a substantial role to play in the future of NMAs. At NRCan, this r
 
 * *Providing the public with access to geospatial data and maps*: This is a key function of an NMA. OGC APIs have the potential to help NMAs to provide open data in a way that conforms to FAIR principles (Findable, Accessible, Interoperable, and Reusable). This enables the members of the public to make use of the geospatial data and maps as they see fit (e.g. in support of other parts of the community or economy).
 
-* *Facilitating analytics*: Making geospatial a fundamental part of national decision making requires consideration of how to optimize the use of location information. So by focusing firstly on analytics, geospatial experts can be enabled to help others, then those experts could make better decisions through geospatial information analytics.
+* *Facilitating analytics*: Making geospatial a fundamental part of national decision making requires consideration of how to optimize the use of location information. By focusing firstly on analytics, geospatial experts can be enabled to help others, then those experts can make better decisions through geospatial information analytics.
 
-* *Reducing barriers to accessing geospatial data*: Geospatial data has gotten more accessible over the past decade. However, there has also been a significant increase in the demand for knowledge and expertise in all sorts of development to use geospatial information.
+* *Reducing barriers to accessing geospatial data*: Geospatial data has become more accessible over the past decade. However, there has also been a significant increase in the demand for knowledge and expertise in all sorts of development to use geospatial information. Significant need also exists to extend geospatial information accessibility to individuals with disabilities to ensure everyone can benefit from geospatial data.
 
 ==== Sprint Area of Interest
 

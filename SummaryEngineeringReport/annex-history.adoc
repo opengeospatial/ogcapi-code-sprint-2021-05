@@ -7,5 +7,6 @@
 |====================
 |Date |Editor |Release | Primary clauses modified |Descriptions
 |2021-05-26 |G. Hobona | .1 |all |initial version
+|2021-05-31 |G. Hobona | .2 |all |Revision after NRCan feedback
 |TBA |TBA | TBA |TBA |TBA
 |====================
