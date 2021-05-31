@@ -1,20 +1,3 @@
-==== UAB-CREAF
+==== Universitat Autònoma de Barcelona
 
-TBA
-
-===== Motivation to Participate
-
-TBA
-
-===== Implemented Solution
-
-TBA
-
-===== Proposed Alternatives
-
-TBA
-
-===== Experiences with OGC API Specifications
-
-TBA
-
+The Centre for Ecological Research and Forestry Applications (CREAF) is a public research institute created in 1987 and located in Catalonia. It is part of the Autonomous University of Barcelona (UAB). CREAF deployed an instance of the MiraMon Map Server. The MiraMon Map Server is a CGI application encoded in C language that is part of the MiraMon Geographic Information System (GIS) & Remote Sensing (RS) suite. The software originally started 10 years ago as a WMS server in support of the Catalan Administration and CREAF data services. Currently the server implements WMS, WMTS and partially implements WFS and WCS. It also partially implements the OGC Sensor Observation Service (SOS) standard. It also includes prototype support for the draft OGC API - Maps and OGC API - Tiles specifications. In order to perform efficiently, it requires a process preparing the data to be offered. The server can interoperate with other vendors' clients. When combined with the MiraMon Map Client, the server offers additional functionality, including functionality recently developed for the Catalan Data Cube. The MiraMon Map Client is built using client-side JavaScript and can therefore run on any web browser.

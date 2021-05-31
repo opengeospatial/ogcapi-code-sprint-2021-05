@@ -1,20 +1,24 @@
 ==== interactive instruments GmbH
 
-TBA
+ldproxy is an implementation of the OGC API family of specifications, inspired on the W3C/OGC Spatial Data on the Web Best Practices. ldproxy is developed by interactive instruments GmbH, written in Java (Source Code) and is typically deployed using docker (DockerHub). The software originally started in 2015 as a Web API for feature data based on WFS 2.0 capabilities. In addition to the JSON/XML encodings, an emphasis is placed on an intuitive HTML representation.
 
-===== Motivation to Participate
+The current version supports WFS 2.0 instances as well as PostgreSQL/PostGIS databases as backends. It implements all conformance classes and recommendations of "OGC API - Features - Part 1: Core" and "OGC API - Features- Part 2: Coordinate Reference Systems By Reference", as well as other draft extensions (including Part 3 and Part 4). ldproxy also has draft implementations for additional resource types (Tiles, Styles). At the time of publishing this engineering report, the ldproxy 2.0 product is https://www.ogc.org/resource/products/details/?pid=1598[certified OGC compliant] to the OGC API - Features - Part 1: Core standard.
 
-TBA
+For this code sprint, the server was configured to offer an endpoint supporting:
 
-===== Implemented Solution
+* The draft OGC API - Maps - Part 1: Core specification
+* The draft OGC API - Tiles - Part 1: Core specification
+* The draft OGC API - Styles - Part 1: Core specification
+* The OGC API - Features - Part 1: Core Standard
 
-TBA
+A screenshot showing the landing page of an ldproxy instance during the code sprint is shown in <<img_ldproxy1>>. The instance had been configured to serve OS Open Zoomstack styles through an interface conforming to OGC API - Styles.
 
-===== Proposed Alternatives
+[#img_ldproxy1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a demonstration of ldproxy, showing a landing page
+image::images/ldproxy1.png[width=800,align="center"]
 
-TBA
+A screenshot of the HTML version of the API definition of the ldproxy instance is shown in <<img_ldproxy2>>.
 
-===== Experiences with OGC API Specifications
-
-TBA
-
+[#img_ldproxy2,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot from a demonstration of ldproxy, showing the API definition
+image::images/ldproxy2.png[width=800,align="center"]

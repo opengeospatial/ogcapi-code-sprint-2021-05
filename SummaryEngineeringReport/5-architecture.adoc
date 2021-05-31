@@ -9,7 +9,7 @@ The focus of the sprint was on support of the development of the draft https://o
 .High level overview of the architecture implemented during the sprint
 image::images/architecture.png[width=800,align="center"]
 
-As illustrated, the sprint architecture was designed with the view of enabling client applications to connect to different servers that implement OGC APIs. The servers were provisioned with maps, tiled feature data (colloquially named vector tiles), map tiles, tiled coverage data, and styles.
+As illustrated, the sprint architecture was designed with the view of enabling client applications to connect to different servers that implement OGC APIs. The servers were provisioned with maps, tiled feature data (colloquially named 'vector tiles'), map tiles, tiled coverage data, and styles.
 
 === Candidate Standards
 

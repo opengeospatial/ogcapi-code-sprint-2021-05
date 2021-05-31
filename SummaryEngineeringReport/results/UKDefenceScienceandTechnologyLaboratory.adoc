@@ -1,20 +1,3 @@
 ==== UK Defence Science and Technology Laboratory
 
 TBA
-
-===== Motivation to Participate
-
-TBA
-
-===== Implemented Solution
-
-TBA
-
-===== Proposed Alternatives
-
-TBA
-
-===== Experiences with OGC API Specifications
-
-TBA
-

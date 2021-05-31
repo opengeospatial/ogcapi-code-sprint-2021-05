@@ -159,6 +159,7 @@ include::8-conclusions.adoc[]
 // *****************************************************************************
 
 
+include::annex-a.adoc[]
 
 // *****************************************************************************
 // Revision History should be the last annex before the Bibliography.

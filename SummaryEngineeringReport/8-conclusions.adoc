@@ -1,4 +1,31 @@
 [[conclusions]]
 == Conclusions
 
-TBA
+The code sprint facilitated the development and testing of prototype implementations of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. Further, the code sprint also enabled the participating developers to provide feedback to the editors of OGC standards. The code sprint was also able to identify ways through which the OGC APIs would help to meet the needs of NMAs. The code sprint therefore met all of its objectives and achieved its goal of progressing the development of the draft OGC API standards for Maps, Tiles and Styles.
+
+=== Future Work
+
+The sprint participants considered how the sprint’s outcomes could be incorporated into future OGC Standards Program and Innovation Program activities.
+
+=== Potential activities for the Innovation Program
+
+For the OGC Innovation Program, the sprint participants identified a need to:
+
+* experiment with multidimensional data support in OGC APIs.
+* explore how to turn legends into real data(objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).
+* research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.
+* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.
+* experiment with non-grid coverages (e.g. point clouds).
+* explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).
+
+OGC Innovation Program activities rely on sponsorship to resource initiatives. Therefore, the potential activities listed above will be presented to the OGC Technical Committee through the Architecture Domain Working Group in order to raise interest from potential sponsors.
+
+=== Potential activities for the Standards Program
+
+For the OGC Standards Program, the sprint participants identified a need to:
+
+* specify a legend conformance class for the OGC API - Maps and OGC API - Tiles draft specifications.
+* specify an 'info' conformance class for the OGC API - Maps and OGC API - Tiles  draft specifications.
+* implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the https://portal.ogc.org/files/?artifact_id=56394[OGC Best Practice for using Web Map Services (WMS) with Time-Dependent or Elevation-Dependent Data (1.0)]) e.g. the `subset` and `datetime` parameters.
+
+The OGC API - Maps and OGC API - Tiles Standards Working Groups will be tasked with specifying requirements for the legend and info conformance classes. Once the requirements have been specified, there may be a need to conduct further experimentation focusing on implementations of the legend and info conformance classes.
