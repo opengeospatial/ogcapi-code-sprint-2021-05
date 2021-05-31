@@ -11,7 +11,7 @@ For this code sprint, the server was configured to offer an endpoint supporting:
 * The draft OGC API - Styles - Part 1: Core specification
 * The OGC API - Features - Part 1: Core Standard
 
-A screenshot showing the landing page of an ldproxy instance during the code sprint is shown in <<img_ldproxy>>. The instance had been configured to serve OS Open Zoomstack styles through an interface conforming to OGC API - Styles.
+A screenshot showing the landing page of an ldproxy instance during the code sprint is shown in <<img_ldproxy1>>. The instance had been configured to serve OS Open Zoomstack styles through an interface conforming to OGC API - Styles.
 
 [#img_ldproxy1,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot from a demonstration of ldproxy, showing a landing page
