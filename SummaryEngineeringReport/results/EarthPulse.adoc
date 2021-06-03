@@ -12,7 +12,7 @@ We are participating in an H2020 research project (945307 - eMOTIONAL Cities), a
 
 Our main motivation to participate in this sprint was to learn more about the OGC API standards and its current implementations, to assess what is feasible to adopt in the project. At the same time, we wanted to contribute to testing (and eventually improving) of current OGC API implementations.
 
-===== Implemented Solution
+===== Sprint Activities and Outcomes
 
 In this sprint we decided to focus on the OGC API Tiles specification. In order to get familiar with it, we decided to test some of its implementations.
 
@@ -28,7 +28,7 @@ A PR was created to address this issue (already merged to the core):
 
 https://github.com/geopython/pygeoapi/pull/694
 
-We also became aware of an https://github.com/geopython/pygeoapi/issues/567[issue] with the default background map on the example configuration file. It was addressed on this PR:
+We also became aware of an https://github.com/geopython/pygeoapi/issues/567[issue] with the default background map on the example configuration file. It was addressed on this PR (also merged):
 
 https://github.com/geopython/pygeoapi/pull/697#partial-pull-merging
 
@@ -48,11 +48,7 @@ We have failed to display the vector tiles from the deployed server on this clie
 
 image::https://raw.githubusercontent.com/doublebyte1/ogcapi-code-sprint-2021-05/main/SummaryEngineeringReport/images/leaflet_screenshot.png[leaflet]
 
-===== Proposed Alternatives
-
-TBA
-
-===== Experiences with OGC API Specifications
+===== Some Thoughts
 
 Our overall feeling, as final users, is that it is still hard to find server and client implementations that can talk to each other.
 
