@@ -44,7 +44,7 @@ On https://github.com/PascalLike/leaflet-ogc-layers[this] fork, we created an in
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com/
 
-We have failed to display the vector tiles from the deployed server on this client, although it specifically implements an ogcTilesLayer (maybe the calls were implemented to raster tiles only?). An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here].
+We have failed to display the vector tiles from the deployed server on this client, as it only consumes raster tiles. An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here], which clarifies the topic.
 
 image::https://raw.githubusercontent.com/doublebyte1/ogcapi-code-sprint-2021-05/main/SummaryEngineeringReport/images/leaflet_screenshot.png[leaflet]
 
