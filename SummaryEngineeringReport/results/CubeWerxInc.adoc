@@ -21,5 +21,7 @@ The cubeserv product is implemented in C and currently implements the following 
 * The draft OGC API - Coverages - Part 1: Core specification
 * The draft OGC API - Processes - Part 1: Core specification
 * The OGC API - Features - Part 1: Core Standard
-* Multiple versions of the Web Map Service (WMS), Web Processing Service (WPS), Web Map Tile Service (WMTS) and Web Feature Service (WFS) standards
+* Multiple versions of the Web Map Service (WMS), Web Processing Service (WPS), Web Map Tile Service (WMTS), Web Feature Service (WFS) and Web Coverage Service (WCS) standards
 * A number of other "un-adopted" OGC web services including the Testbed-12 Web Integration Service, OWS-7 Engineering Report - GeoSynchronization Service, Web Object Service Implementation Specification.
+
+During this code sprint, CubeWerx helped fine-tune and mature several aspects of the OGC API Maps, Tiles and Tiles specifications, and refined its implementation accordingly.

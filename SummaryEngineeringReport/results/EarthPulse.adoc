@@ -1,3 +1,57 @@
 ==== EarthPulse
 
-TBA
+https://earthpulse.pt/[EarthPulse] is an SME which operates within the fields of data engineering and data analytics. Its staff are experts in the areas of data analytics, full-stack development, Big Data, product development and access, management and processing of data sources such as geospatial or textual data.
+
+EarthPulse is commited to Free and Open Source software (FOSS) and open standards.
+
+https://github.com/doublebyte1/[@doublebyte1] and https://github.com/PascalLike[@PascalLike] have participated in this sprint.
+
+===== Motivation to Participate
+
+EarthPulse are participating in an H2020 research project (945307 - eMOTIONAL Cities). The main task for EarthPulse in the project is to create a spatial data infrastructure, using modern technologies.
+
+The main motivation for EarthPulse to participate in this sprint was to learn more about the OGC API standards and current implementations of the standards, to assess what is feasible to adopt in the project. At the same time, EarthPulse wanted to contribute to testing (and eventually improving) of current OGC API implementations.
+
+===== Sprint Activities and Outcomes
+
+In this sprint EarthPulse staff decided to focus on the OGC API - Tiles specification. In order to get familiar with it, EarthPulse staff decided to test some of its implementations.
+
+The EarthPulse team started by installing and deploying the https://pygeoapi.io/[pygeoapi] product, and configured pygeoapi to use a neuroscience dataset:
+
+http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com:5000/
+
+image::images/pygeoapi_screenshot.png[pygeoapi]
+
+During this process, the team became aware of a bug on pygeoapi's OpenAPI representation of the get tile request.
+
+A Pull Request (PR) was created to address this issue and has since been merged to the core:
+
+https://github.com/geopython/pygeoapi/pull/694
+
+The team also became aware of an https://github.com/geopython/pygeoapi/issues/567[issue] with the default background map on the example configuration file. It was addressed on this PR (also merged):
+
+https://github.com/geopython/pygeoapi/pull/697#partial-pull-merging
+
+Finally, the team tested the OGC API - Tiles implementation of the spec, using postman:
+
+https://www.getpostman.com/collections/3c54a654cb74f803b683
+
+The team believes that not all the OGC API - Tiles requirements are currently implemented by pygeoapi, in particular in what regards TileMatrixSets. This creates some difficulty when retrieving a tile, i.e. when there are no requests to retrieve the TileMatrixSet.
+
+The team also wanted to check a client-side implementation of the spec, and came across the https://github.com/frontiersi/leaflet-ogc-layers[leaflet-ogc-layers] repository, developed during this sprint.
+
+On the https://github.com/PascalLike/leaflet-ogc-layers[this] fork, the EarthPulse team created an interactive map which uses this leaflet implementation:
+
+http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com/
+
+It was not possible to display the tiles from the deployed server on this client, as the current implementation does not support vector tiles. An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here], which clarifies the topic.
+
+image::images/leaflet_screenshot.png[leaflet]
+
+===== Some Thoughts
+
+The conclusion of the EarthPulse team, as final users, is that it is still hard to find server and client implementations that can talk to each other.
+
+For instance, maybe one server side application may implement one building block, while a client application may implement another building block.
+
+This issue will tend to vanish as support for more building blocks is added to the applications, or when a wider number of implementations of the draft OGC API - Tiles specification become available.

@@ -12,7 +12,7 @@ include::results/CubeWerxInc.adoc[]
 
 //include::results/EAD.adoc[]
 
-//include::results/EarthPulse.adoc[]
+include::results/EarthPulse.adoc[]
 
 include::results/EcereCorporation.adoc[]
 
