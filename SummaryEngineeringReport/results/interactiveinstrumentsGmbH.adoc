@@ -1,17 +1,17 @@
 ==== interactive instruments GmbH
 
-ldproxy is an implementation of the OGC API family of specifications, inspired on the W3C/OGC Spatial Data on the Web Best Practices. ldproxy is developed by interactive instruments GmbH, written in Java (Source Code) and is typically deployed using docker (DockerHub). The software originally started in 2015 as a Web API for feature data based on WFS 2.0 capabilities. In addition to the JSON/XML encodings, an emphasis is placed on an intuitive HTML representation.
+ldproxy is an implementation of the OGC API family of specifications. ldproxy is developed by interactive instruments GmbH, written in Java (Source Code) and is typically deployed using docker (DockerHub). The software originally started in 2015 as a Web API for feature data based on WFS 2.0 capabilities, inspired on the W3C/OGC Spatial Data on the Web Best Practices. In addition to the JSON/XML encodings, an emphasis is placed on an intuitive HTML representation.
 
-The current version supports WFS 2.0 instances as well as PostgreSQL/PostGIS databases as backends. It implements all conformance classes and recommendations of "OGC API - Features - Part 1: Core" and "OGC API - Features- Part 2: Coordinate Reference Systems By Reference", as well as other draft extensions (including Part 3 and Part 4). ldproxy also has draft implementations for additional resource types (Tiles, Styles). At the time of publishing this engineering report, the ldproxy 2.0 product is https://www.ogc.org/resource/products/details/?pid=1598[certified OGC compliant] to the OGC API - Features - Part 1: Core standard.
+The current version supports WFS 2.0 instances as well as PostgreSQL/PostGIS and GeoPackage databases as backends. It implements all conformance classes and recommendations of "OGC API - Features - Part 1: Core" and "OGC API - Features- Part 2: Coordinate Reference Systems By Reference", as well as other draft extensions (including Part 3 and Part 4 of OGC API Features). ldproxy also has draft implementations for additional resource types from OGC API Tiles and OGC API Styles). At the time of publishing this engineering report, the ldproxy 2.0 product is https://www.ogc.org/resource/products/details/?pid=1598[certified OGC compliant] to the OGC API - Features - Part 1: Core standard and is one of the Reference Implementations of the standard.
 
 For this code sprint, the server was configured to offer an endpoint supporting:
 
-* The draft OGC API - Maps - Part 1: Core specification
 * The draft OGC API - Tiles - Part 1: Core specification
 * The draft OGC API - Styles - Part 1: Core specification
-* The OGC API - Features - Part 1: Core Standard
+* The OGC API - Features - Part 1: Core and OGC API - Features - Part 2: Coordinate Reference Systems by Reference standards
+* The draft OGC API - Features - Part 3: Filtering and CQL specification
 
-A screenshot showing the landing page of an ldproxy instance during the code sprint is shown in <<img_ldproxy1>>. The instance had been configured to serve OS Open Zoomstack styles through an interface conforming to OGC API - Styles.
+A screenshot showing the landing page of an ldproxy instance during the code sprint is shown in <<img_ldproxy1>>. The instance had been configured before the sprint to serve OS Open Zoomstack vector tiles, OS Open Zoomstack styles and OS Open Zoomstack features through an API conforming to OGC API - Styles and OGC API - Features. The instance also supported the capability to create, update and delete styles and their metadata.
 
 [#img_ldproxy1,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot from a demonstration of ldproxy, showing a landing page
@@ -22,3 +22,5 @@ A screenshot of the HTML version of the API definition of the ldproxy instance i
 [#img_ldproxy2,reftext='{figure-caption} {counter:figure-num}']
 .Screenshot from a demonstration of ldproxy, showing the API definition
 image::images/ldproxy2.png[width=800,align="center"]
+
+During the spring, ldproxy has been updated to implement the latest drafts of OGC API - Tiles and the OGC Two Dimensional Tile Matrix Set and Tile Set Metadata specification. This includes changes that were agreed among the participants during the sprint.

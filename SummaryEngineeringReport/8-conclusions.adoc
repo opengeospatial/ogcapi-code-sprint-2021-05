@@ -17,6 +17,7 @@ For the OGC Innovation Program, the sprint participants identified a need to:
 * experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.
 * experiment with non-grid coverages (e.g. point clouds).
 * explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).
+* experiment with style editor clients using a secured API to create, update and delete styles and related resources.
 
 OGC Innovation Program activities rely on sponsorship to resource initiatives. Therefore, the potential activities listed above will be presented to the OGC Technical Committee through the Architecture Domain Working Group in order to raise interest from potential sponsors.
 
@@ -24,8 +25,10 @@ OGC Innovation Program activities rely on sponsorship to resource initiatives. T
 
 For the OGC Standards Program, the sprint participants identified a need to:
 
-* specify a legend conformance class for the OGC API - Maps and OGC API - Tiles draft specifications.
+* specify a legend conformance class for the OGC API - Maps and OGC API - Styles draft specifications.
 * specify an 'info' conformance class for the OGC API - Maps and OGC API - Tiles  draft specifications.
 * implement an OGC API - Maps conformance class/extension to support time dependent maps (in a way similar to the https://portal.ogc.org/files/?artifact_id=56394[OGC Best Practice for using Web Map Services (WMS) with Time-Dependent or Elevation-Dependent Data (1.0)]) e.g. the `subset` and `datetime` parameters.
 
 The OGC API - Maps and OGC API - Tiles Standards Working Groups will be tasked with specifying requirements for the legend and info conformance classes. Once the requirements have been specified, there may be a need to conduct further experimentation focusing on implementations of the legend and info conformance classes.
+
+The OGC API - Styles Standards Working Group will resolve all issues related to the specification that were raised during the sprint.
