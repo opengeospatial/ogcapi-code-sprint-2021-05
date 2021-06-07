@@ -7,7 +7,7 @@ The code sprint facilitated the development and testing of prototype implementat
 
 The sprint participants considered how the sprint’s outcomes could be incorporated into future OGC Standards Program and Innovation Program activities.
 
-=== Potential activities for the Innovation Program
+==== Potential activities for the Innovation Program
 
 For the OGC Innovation Program, the sprint participants identified a need to:
 
@@ -21,7 +21,7 @@ For the OGC Innovation Program, the sprint participants identified a need to:
 
 OGC Innovation Program activities rely on sponsorship to resource initiatives. Therefore, the potential activities listed above will be presented to the OGC Technical Committee through the Architecture Domain Working Group in order to raise interest from potential sponsors.
 
-=== Potential activities for the Standards Program
+==== Potential activities for the Standards Program
 
 For the OGC Standards Program, the sprint participants identified a need to:
 
