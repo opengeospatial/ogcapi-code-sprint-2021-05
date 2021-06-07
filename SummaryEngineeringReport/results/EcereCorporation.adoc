@@ -1,18 +1,38 @@
 ==== Ecere Corporation
 
-The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. GNOSIS Map Server supports multiple encodings including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), Mapbox Vector Tiles, GeoJSON, GeoECON, GML and MapML. An experimental server is available online at https://maps.ecere.com/ogcapi and has been used in multiple OGC Innovation Program initiatives. At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is https://www.ogc.org/resource/products/details/?pid=1670[certified OGC compliant] to the OGC API - Features - Part 1: Core standard.
+The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications.
+Multiple encodings are supported including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), GeoTIFF, GeoJSON, Mapbox Vector Tiles and MapML.
+An experimental server is available online at https://maps.ecere.com/ogcapi and has been used in multiple OGC Innovation Program initiatives.
+At the time of publishing this engineering report, the GNOSIS Map Server 1.0 product is https://www.ogc.org/resource/products/details/?pid=1670[certified OGC compliant] to the _OGC API - Features - Part 1: Core_ standard.
 
-A screenshot from a demonstration of the GNOSIS Map Server product during the code sprint is shown in <<img_gnosis3>>.
+During the code sprint, Ecere loaded high resolution digital terrain model data provided by Natural Resources Canada for the Red River, Manitoba
+area of interest onto the experimental map server, including both 1 meter and 2 meter resolution.
+The API allows to retrieve coverages, maps and tiles (both coverage and map tiles) of this dataset, for which a style was also prepared and made available through the Styles API.
+
+A screenshot of a Collection page for this dataset deployed on a GNOSIS Map Server instance is shown in <<img_gnosis3>>.
 
 [#img_gnosis3,reftext='{figure-caption} {counter:figure-num}']
-.Screenshot from a demonstration of GNOSIS Map Server
-image::images/gnosis3.png[width=800,align="center"]
+.HRDEM of Red River, MB AoI from NRCan served by GNOSIS Map Server
+image::images/gnosis-mapserver-redriver.png[width=800,align="center"]
 
-Along with deployment of an instance of the GNOSIS Map Server, personnel from Ecere also demonstrated access to OGC APIs through GNOSIS Cartographer. A screenshot from a demonstration of the GNOSIS Cartographer product during the code sprint is shown in <<img_gnosis1>>.
+Personnel from Ecere also demonstrated visualizing data accessed via OGC APIs through GNOSIS Cartographer.
+A screenshot of GNOSIS Cartographer used to visualize the Red River HRDEM is shown in <<img_gnosis1>>.
 
 [#img_gnosis1,reftext='{figure-caption} {counter:figure-num}']
-.Screenshot from a demonstration of GNOSIS Cartographer
-image::images/gnosis1.png[width=800,align="center"]
+.Screenshot of GNOSIS Cartographer visualizing HRDEM of Red River, MB AoI from NRCan
+image::images/gnosis-carto-redriver.png[width=800,align="center"]
+
+Developers from Ecere worked on implementing support for the styles management conformance class of _OGC API - Styles_ in GNOSIS Map Server, which will allow
+authenticated users to create, update and delete style resources.
+
+Support for the new attribution field in the resources describing collections of geospatial data was also implemented in the server.
+
+Additionally, the Tiles API implementation of the GNOSIS Map Server was updated to reflect the latest development
+of the TileMatrixSet and TileSet metadata specifications, including a transition to JSON Schema to describe the vector features properties.
+
+Ecere participated actively in the discussions and development of these specifications and of the _OGC API - Tiles, Maps & Styles_ specifications,
+prior, during and following the code sprint, and engaged with implementers to provide guidance, clarifications and support with
+Technology Integration Experiments.
 
 For this code sprint, the GNOSIS Map Server instance deployed for the sprint was configured to offer an endpoint supporting:
 
@@ -20,5 +40,5 @@ For this code sprint, the GNOSIS Map Server instance deployed for the sprint was
 * The draft OGC API - Tiles - Part 1: Core specification
 * The draft OGC API - Styles - Part 1: Core specification
 * The draft OGC API - Coverages - Part 1: Core specification
-* The draft OGC API - Processes - Part 1: Core specification
+* The draft OGC API - Processes - Part 3: Workflows specification
 * The OGC API - Features - Part 1: Core Standard
