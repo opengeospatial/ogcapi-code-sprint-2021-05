@@ -1,7 +1,9 @@
 [[conclusions]]
 == Conclusions
 
-The code sprint facilitated the development and testing of prototype implementations of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. Further, the code sprint also enabled the participating developers to provide feedback to the editors of OGC standards. The code sprint was also able to identify ways through which the OGC APIs would help to meet the needs of NMAs. The code sprint therefore met all of its objectives and achieved its goal of progressing the development of the draft OGC API standards for Maps, Tiles and Styles.
+The code sprint successfully facilitated the development and testing of prototype implementations of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. The code sprint built upon on the successes of recent code sprints that included the aforementioned draft OGC API standards. Those previous code sprints had covered OGC API - Maps cite:[OGC20_090] and also other draft OGC API standards cite:[OGC21_008].
+
+The code sprint enabled the participating developers to provide feedback to the editors of OGC standards. The feedback identified areas for improvement and potential solutions to issues encountered. The participants of the code sprint were able to identify ways through which the OGC APIs could help to meet the needs of NMAs. The code sprint therefore met all of its objectives and achieved its goal of progressing the development of the draft OGC API standards for Maps, Tiles and Styles.
 
 === Future Work
 
