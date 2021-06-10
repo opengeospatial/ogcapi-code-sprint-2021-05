@@ -6,3 +6,61 @@ GeoSolutions deployed an instance of the GeoServer product. GeoServer is a Java-
 * Multiple conformance classes and recommendations of the draft OGC API - Tiles - Part 1: Core specification.
 * Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
 * Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.
+
+The development focused on updating the OGC API - Tiles implementation to the latest evolution of the spec, as well as setting up a permanent demo server for OGC API implementations
+
+===== The demo server
+
+The https://gs-main.geosolutionsgroup.com/geoserver[gs-main demo server] tracks the development branch of GeoServer. With three deploys a day it closely tracks the latest evolutions of the softwar. On the flip side, because of this, the server can be at times unstable.
+
+
+In particular, the server offers:
+
+* The classic GeoServer demo datasets, such as Manhattan roads, Spearfish, Tasmania and the demographic "states" layers,
+* The full https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack[ZoomStack dataset] from Ordnance Survey, with full set of https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets/tree/master/GeoPackage/Styled%20Layer%20Descriptors%20(SLD)[SLD styles alternatives] exposed by the Styles API.
+* The Reseaux River basin digital elevation model from Natural Resources Canada
+
+
+
+.ZoomStack, as displayed by OGC API Maps, in various styles
+[cols="a,a,a"]
+|===
+
+|image::../images/gs-zs-light.png[]
+|image::../images/gs-zs-night.png[]
+|image::../images/gs-zs-road.png[]
+
+|image::../images/gs-zs-outdoor.png[]
+|image::../images/gs-zs-tritanopia.png[]
+|image::../images/gs-zs-deuteranopia.png[]
+|===
+
+.HRDEM from Natural Resources Canada
+image::../images/gs-hrdem.png[]
+
+The server offers the following OGC APIs:
+
+- Features
+- Maps
+- Styles
+- Tiles
+- DGGS (though currently there are no DGGS enabled datasets in it)
+
+===== Updating OGC API Tiles
+
+The GeoServer implementation of OGC API Tiles dated back to the Vector Tiles Pilot 2, the API got significantly updated in the meantime.
+
+In particular, before the update a single templated URLs was offered to the clients, that was parameterized on a number of elements, e.g.:
+
+``../ogc/tiles/collections/testCollection/map/{styleId}/tiles/{tileMatrixSetId}/{tileMatrix}/{tileRow}/{tileCol}?f=image%2Fpng``
+
+In order to fill the template, the client would pick the styles from the collection style list, and the tile matrix set from the dedicated resource.
+In the current incarnation instead, new intermediate resources have been added that progressively reveal the components of the path:
+
+- A "styles" resource containing links to the available styles
+- A "map" resource for each collection and style, providing a link to the available tilesets
+- A "tileset" resource finally providing a templated link with the familiar "z/y/x" template variables, e.g.:
+
+`` http://gs-main.geosolutionsgroup.com/geoserver/ogc/tiles/collections/oszoom%3Aroads_regional/styles/oszoom:roads_regional-road/map/tiles/WebMercatorQuad/{tileMatrix}/{tileRow}/{tileCol}?f=image%2Fpng8``
+
+This eases usage for clients that happen to support generic ``xyz`` tilesets, at least as long as the ``WebMercatorQuad`` tile matrix set is used. 
