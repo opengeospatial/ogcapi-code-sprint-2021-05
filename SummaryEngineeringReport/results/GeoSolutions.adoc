@@ -26,17 +26,17 @@ In particular, the server offers:
 [cols="a,a,a"]
 |===
 
-|image::../images/gs-zs-light.png[]
-|image::../images/gs-zs-night.png[]
-|image::../images/gs-zs-road.png[]
+|image::images/gs-zs-light.png[]
+|image::images/gs-zs-night.png[]
+|image::images/gs-zs-road.png[]
 
-|image::../images/gs-zs-outdoor.png[]
-|image::../images/gs-zs-tritanopia.png[]
-|image::../images/gs-zs-deuteranopia.png[]
+|image::images/gs-zs-outdoor.png[]
+|image::images/gs-zs-tritanopia.png[]
+|image::images/gs-zs-deuteranopia.png[]
 |===
 
 .HRDEM from Natural Resources Canada
-image::../images/gs-hrdem.png[]
+image::images/gs-hrdem.png[]
 
 The server offers the following OGC APIs:
 
@@ -63,4 +63,4 @@ In the current incarnation instead, new intermediate resources have been added t
 
 `` http://gs-main.geosolutionsgroup.com/geoserver/ogc/tiles/collections/oszoom%3Aroads_regional/styles/oszoom:roads_regional-road/map/tiles/WebMercatorQuad/{tileMatrix}/{tileRow}/{tileCol}?f=image%2Fpng8``
 
-This eases usage for clients that happen to support generic ``xyz`` tilesets, at least as long as the ``WebMercatorQuad`` tile matrix set is used. 
+This eases usage for clients that happen to support generic ``xyz`` tilesets, at least as long as the ``WebMercatorQuad`` tile matrix set is used.
