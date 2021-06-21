@@ -8,4 +8,5 @@
 |Date |Editor |Release | Primary clauses modified |Descriptions
 |2021-05-26 |G. Hobona | .1 |all |initial version
 |2021-05-31 |G. Hobona | .2 |all |Revision after NRCan feedback
+|2021-06-21 |G. Hobona | .3 |7.2 |Added section on documentation
 |====================
