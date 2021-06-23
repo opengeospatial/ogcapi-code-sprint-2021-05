@@ -16,10 +16,12 @@ The main motivation for EarthPulse to participate in this sprint was to learn mo
 
 In this sprint EarthPulse staff decided to focus on the OGC API - Tiles specification. In order to get familiar with it, EarthPulse staff decided to test some of its implementations.
 
-The EarthPulse team started by installing and deploying the https://pygeoapi.io/[pygeoapi] product, and configured pygeoapi to use a neuroscience dataset:
+The EarthPulse team started by installing and deploying the https://pygeoapi.io/[pygeoapi] product (see <<img_earthpulse1>>), and configured pygeoapi to use a neuroscience dataset:
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com:5000/
 
+[#img_earthpulse1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of pygeoapi instance deployed by EarthPulse
 image::images/pygeoapi_screenshot.png[pygeoapi]
 
 During this process, the team became aware of a bug on pygeoapi's OpenAPI representation of the get tile request.
@@ -44,8 +46,11 @@ On the https://github.com/PascalLike/leaflet-ogc-layers[this] fork, the EarthPul
 
 http://ec2-3-65-14-187.eu-central-1.compute.amazonaws.com/
 
-It was not possible to display the tiles from the deployed server on this client, as the current implementation does not support vector tiles. An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here], which clarifies the topic.
+It was not possible to display the tiles from the deployed server on this client, as the current implementation does not support vector tiles as shown in <<img_earthpulse2>>. An issue was opened https://github.com/frontiersi/leaflet-ogc-layers/issues/1[here], which clarifies the topic.
 
+
+[#img_earthpulse2,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of pygeoapi issue relating to loading of tiles
 image::images/leaflet_screenshot.png[leaflet]
 
 ===== Some Thoughts
