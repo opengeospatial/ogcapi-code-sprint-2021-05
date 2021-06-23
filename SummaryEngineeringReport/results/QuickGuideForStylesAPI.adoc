@@ -1,0 +1,7 @@
+==== Quick Start Guide of OGC API - Styles
+
+Sprint participants from the Defence Science and Technology Laboratory (Dstl) took the lead in preparing an initial draft version of a Quick Start Guide of OGC API - Styles. The guide is intended to focus a developer on the API's capabilities in order to increase a developer's understanding of the API and to help them get started. The guide identifies a number of use cases, key concepts, resources and provides examples.
+
+[#img_stylesguide,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of Quick Start Guide of OGC API - Styles
+image::images/stylesguide.png[width=800,align="center"]
