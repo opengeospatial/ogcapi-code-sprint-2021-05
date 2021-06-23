@@ -43,7 +43,7 @@ enhancements developed during the sprint:
 MSC also collaborated with Ecere in testing and https://github.com/geopython/pygeoapi/issues/699[updating OGC API - Tiles
 support in pygeoapi] to align with recent iterations of the specification.
 
-A screenshot from a demonstration a pygeoapi instance during the code sprint
+A screenshot from a demonstration of a pygeoapi instance during the code sprint
 is shown in <<img_pygeoapi>>.
 
 The resulting work can be found in a pygeoapi https://github.com/tomkralidis/pygeoapi/tree/oamaps[feature branch].

@@ -2,15 +2,15 @@
 
 https://earthpulse.pt/[EarthPulse] is an SME which operates within the fields of data engineering and data analytics. Its staff are experts in the areas of data analytics, full-stack development, Big Data, product development and access, management and processing of data sources such as geospatial or textual data.
 
-EarthPulse is commited to Free and Open Source software (FOSS) and open standards.
+EarthPulse is committed to Free and Open Source software (FOSS) and open standards.
 
 https://github.com/doublebyte1/[@doublebyte1] and https://github.com/PascalLike[@PascalLike] have participated in this sprint.
 
 ===== Motivation to Participate
 
-EarthPulse are participating in an H2020 research project (945307 - eMOTIONAL Cities). The main task for EarthPulse in the project is to create a spatial data infrastructure, using modern technologies.
+EarthPulse are participating in a Horizon 2020 research project (https://cordis.europa.eu/project/id/945307[945307 - eMOTIONAL Cities]). The main task for EarthPulse in the project is to create a spatial data infrastructure, using modern technologies.
 
-The main motivation for EarthPulse to participate in this sprint was to learn more about the OGC API standards and current implementations of the standards, to assess what is feasible to adopt in the project. At the same time, EarthPulse wanted to contribute to testing (and eventually improving) of current OGC API implementations.
+The main motivation for EarthPulse to participate in this sprint was to learn more about OGC API standards and current implementations of the standards, to assess what is feasible to adopt in the project. At the same time, EarthPulse wanted to contribute to testing (and eventually improving) of current OGC API implementations.
 
 ===== Sprint Activities and Outcomes
 
@@ -52,6 +52,6 @@ image::images/leaflet_screenshot.png[leaflet]
 
 The conclusion of the EarthPulse team, as final users, is that it is still hard to find server and client implementations that can talk to each other.
 
-For instance, maybe one server side application may implement one building block, while a client application may implement another building block.
+For instance, maybe one server-side application may implement one building block, while a client application may implement another building block.
 
 This issue will tend to vanish as support for more building blocks is added to the applications, or when a wider number of implementations of the draft OGC API - Tiles specification become available.

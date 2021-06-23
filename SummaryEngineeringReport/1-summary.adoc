@@ -1,6 +1,6 @@
 == Subject
 
-The subject of this Engineering Report (ER) is a code sprint that was held from 26 to 28 May 2021 to advance the development of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application or service to other applications (adapted from ISO/IEC TR 13066-2:2016). The code sprint was hosted online. The event was sponsored by Ordnance Survey (OS) and Natural Resources Canada (NRCan).
+The subject of this Engineering Report (ER) is a code sprint that was held from 26 to 28 May 2021 to advance the development of the OGC API - Maps draft standard, OGC API - Tiles draft standard, and the OGC API – Styles draft standard. An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application or service to other applications (adapted from ISO/IEC TR 13066-2:2016). The code sprint was hosted online. The code sprint was sponsored by Ordnance Survey (OS) and Natural Resources Canada (NRCan).
 
 == Executive Summary
 
@@ -34,19 +34,19 @@ The code sprint facilitated the development and testing of prototype implementat
 The outcomes and findings of the sprint can be summarized as follows:
 
 * The Tiles API was found to be reasonably stable. However, there appears to be different interpretations of how to apply styles to maps collections and maps of datasets.
-* Evolution of the Well Known Scale Set (WKSS) concept into common Tile Matrix Set (TMS) concepts was a key outcome. The evolution suggests that WKSS may no longer be necessary.
-* Another key outcome is that the concept of buildings blocks has been completely demonstrated. The three APIs have been successfully demonstrated together.
+* Evolution of the Well Known Scale Set (WKSS) concept into common Tile Matrix Set (TMS) concepts was another outcome. The sprint participants suggested that information provided by WKSS could be derived from a TMS. Further consultation with other OGC Working Groups will be needed to determine the future role of WKSS in the 2D TMS Standard.
+* Another key outcome is that interoperability of buildings blocks has been completely demonstrated. The three APIs have been successfully demonstrated together.
 * The sprint has shown that a lot that is common can be shared across the APIs i.e. how much OGC API - Common - Part 2 facilitates the client implementation.
 * The interaction between OGC APIs for Maps, Tiles, Styles worked well. No major issues came up that could not be verified and/or resolved.
 * More work needs to be done on the Styles API in general. e.g. to determine the impact on API resources when styles are used.
-* The code sprint focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the formats aspects of the styles (e.g. in relation to the https://docs.ogc.org/is/18-067r3/18-067r3.html[Symbology Core] standard).
+* The code sprint focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the format aspects of the styles (e.g. in relation to the https://docs.ogc.org/is/18-067r3/18-067r3.html[Symbology Core] standard).
 * While in the Tiles API a metadata model has been developed, in the Maps API there has been less interest in developing a specific metadata model.
 
 The sprint participants considered what the APIs will do to help meet the needs of the National Mapping Agency (NMA) community. The following is a summary:
 
 * *Providing the public with access to geospatial data and maps*: The OGC APIs will make it easier for the general public to access maps through regular web browser technologies. For example, through OGC API - Maps it is now possible to access a complete map through a basic URL (i.e. no query parameters). OGC API - Tiles will make it easier to publish maps as tiled feature data (colloquially named 'vector tiles'), which are becoming increasingly popular in the NMA community. The APIs are able to provide data in a way that 2.5D and 3D visualization clients are able to handle.
 * *Facilitating analytics*: OGC API - Tiles is able to publish tiled coverage data in such a way that makes it easier to 'stream' coverages for analysis at the screen resolution. This makes it possible to create histograms, vegetation indices, and other analytical reports all at the screen resolution. The flexibility of specifying the origin of the tiles will make it easier to combine regular OGC tiles with other tiles.
-* *Reducing barriers to accessing geospatial data*: All of the OGC APIs together make it easier to start with a dataset and then find a way to generate tiles and other resources. The OGC APIs are integrated in a very convenient way. The Styles API makes it possible for NMA's to publish styles from a central location in a way that is consistent with how they publish data. The integrated environment makes it easier to manage things together.
+* *Reducing barriers to accessing geospatial data*: OGC APIs together make it easier to start with a dataset and then find a way to generate tiles and other resources. The OGC APIs are integrated in a very convenient way. The Styles API makes it possible for NMA's to publish styles from a central location in a way that is consistent with how they publish data. The integrated environment makes it easier to manage things together.
 
 === Plan outlining how the sprint's outcomes will be incorporated into future OGC activities
 

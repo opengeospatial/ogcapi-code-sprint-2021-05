@@ -7,11 +7,11 @@ GeoSolutions deployed an instance of the GeoServer product. GeoServer is a Java-
 * Multiple conformance classes and recommendations of the draft OGC API - Styles - Part 1: Core specification.
 * Multiple conformance classes and recommendations of the OGC API - Features - Part 1: Core Standard.
 
-The development focused on updating the OGC API - Tiles implementation to the latest evolution of the spec, as well as setting up a permanent demo server for OGC API implementations
+The development focused on updating the OGC API - Tiles implementation to the latest evolution of the spec, as well as setting up a permanent demonstration server for OGC API implementations
 
 ===== The demo server
 
-The https://gs-main.geosolutionsgroup.com/geoserver[gs-main demo server] tracks the development branch of GeoServer. With three deploys a day it closely tracks the latest evolutions of the softwar. On the flip side, because of this, the server can be at times unstable.
+The https://gs-main.geosolutionsgroup.com/geoserver[gs-main demo server] tracks the development branch of GeoServer. With three deployments a day it closely tracks the latest evolutions of the software. On the flip side, because of this, the server can be at times unstable.
 
 
 In particular, the server offers:
@@ -50,12 +50,12 @@ The server offers the following OGC APIs:
 
 The GeoServer implementation of OGC API Tiles dated back to the Vector Tiles Pilot 2, the API got significantly updated in the meantime.
 
-In particular, before the update a single templated URLs was offered to the clients, that was parameterized on a number of elements, e.g.:
+In particular, before the update a single templated URL was offered to the clients, that was parameterized on a number of elements, e.g.:
 
 ``../ogc/tiles/collections/testCollection/map/{styleId}/tiles/{tileMatrixSetId}/{tileMatrix}/{tileRow}/{tileCol}?f=image%2Fpng``
 
 In order to fill the template, the client would pick the styles from the collection style list, and the tile matrix set from the dedicated resource.
-In the current incarnation instead, new intermediate resources have been added that progressively reveal the components of the path:
+However, in the current incarnation, new intermediate resources have been added that progressively reveal the components of the path:
 
 - A "styles" resource containing links to the available styles
 - A "map" resource for each collection and style, providing a link to the available tilesets

@@ -20,7 +20,7 @@ OGC APIs have a substantial role to play in the future of NMAs. At NRCan, this r
 
 * *Reducing barriers to accessing geospatial data*: Geospatial data has become more accessible over the past decade. However, there has also been a significant increase in the demand for knowledge and expertise in all sorts of development to use geospatial information. Significant need also exists to extend geospatial information accessibility to individuals with disabilities to ensure everyone can benefit from geospatial data.
 
-==== Sprint Area of Interest
+==== Sprint Areas of Interest
 
 For demonstration purposes, Sprint participants were encouraged to publish specific data and maps through OGC APIs for the following Areas of Interest (AOI):
 
@@ -30,7 +30,7 @@ North America: Red River of the North, within the extent specified by https://gi
 
 The datasets that were recommended for the code sprint included:
 
-==== Ordnance Survey datasets for the Sprint's Europe AOI
+===== Ordnance Survey datasets for the Sprint's Europe AOI
 
 * https://os.uk/business-government/products/open-zoomstack[OS Open Zoomstack data product]: A comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
 * https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets[OS Open Zoomstack stylesheets]: These are OS Open Zoomstack stylesheets encoded in OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles formats.
