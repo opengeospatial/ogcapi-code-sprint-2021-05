@@ -37,8 +37,8 @@ The outcomes and findings of the sprint can be summarized as follows:
 * Evolution of the Well Known Scale Set (WKSS) concept into common Tile Matrix Set (TMS) concepts was another outcome. The sprint participants suggested that information provided by WKSS could be derived from a TMS. Further consultation with other OGC Working Groups will be needed to determine the future role of WKSS in the 2D TMS Standard.
 * Another key outcome is that interoperability of buildings blocks has been completely demonstrated. The three APIs have been successfully demonstrated together.
 * The sprint has shown that a lot that is common can be shared across the APIs i.e. how much OGC API - Common - Part 2 facilitates the client implementation.
-* The interaction between OGC APIs for Maps, Tiles, Styles worked well. No major issues came up that could not be verified and/or resolved.
-* More work needs to be done on the Styles API in general. e.g. to determine the impact on API resources when styles are used.
+* The interaction between OGC APIs for Maps, Tiles, and Styles worked well. No major issues came up that could not be verified and/or resolved.
+* More work needs to be done on the Styles API in general e.g. to determine the impact on API resources when styles are used.
 * The code sprint focused on the API aspects of the styles but not on the formats of the styles. More work is needed on the format aspects of the styles (e.g. in relation to the https://docs.ogc.org/is/18-067r3/18-067r3.html[Symbology Core] standard).
 * While in the Tiles API a metadata model has been developed, in the Maps API there has been less interest in developing a specific metadata model.
 
@@ -59,7 +59,7 @@ For the OGC Innovation Program, the sprint participants identified a need to:
 * experiment with multidimensional data support in OGC APIs.
 * explore how to turn legends into real data (objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).
 * research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.
-* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.
+* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles need to tested/researched.
 * experiment with non-grid coverages (e.g. point clouds).
 * explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).
 

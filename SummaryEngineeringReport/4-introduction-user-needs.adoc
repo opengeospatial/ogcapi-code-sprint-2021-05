@@ -1,9 +1,9 @@
 
-To help the sprint participants prioritize their efforts, the sprint organizers invited Natural Resources Canada (NRCan) to outline User Needs from NRCan's perspective as a National Mapping Agency (NMA). This section summarizes the user needs.
+To help the sprint participants prioritize their efforts, the sprint organizers invited NRCan to outline User Needs from NRCan's perspective as a National Mapping Agency (NMA). This section summarizes the user needs.
 
 ==== Introduction to Natural Resources Canada
 
-Natural Resources Canada (NRCan) is a part of the Federal Government of Canada. NRCan is mandated to ensure the sustainable development of Canada's natural resources, allowing the department's work to explore energy, minerals and metals, forests, earth sciences, mapping, and remote sensing. Geospatial data plays a key role in all of the aforementioned areas, hence NRCan's interest in the development of OGC APIs. As the NMA of Canada, NRCan plays a critical nation-wide role in the distribution of authoritative geospatial data products, including cartographic products such as maps.
+NRCan is a part of the Federal Government of Canada. NRCan is mandated to ensure the sustainable development of Canada's natural resources, allowing the department's work to explore energy, minerals and metals, forests, earth sciences, mapping, and remote sensing. Geospatial data plays a key role in all of the aforementioned areas, hence NRCan's interest in the development of OGC APIs. As the NMA of Canada, NRCan plays a critical nation-wide role in the distribution of authoritative geospatial data products, including cartographic products such as maps.
 
 ==== The Priorities that drive the Need for APIs
 

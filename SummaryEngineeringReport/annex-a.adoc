@@ -2,7 +2,7 @@
 [[annex_a]]
 = Prototype Legend Support
 
-The map-level endpoints that the CubeWerx OGC API demo server at https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa implemented for this are:
+The map-level endpoints that the CubeWerx OGC API demo server that is running at https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa implemented for this sprint are:
 
 `/map/legend` - A legend image showing a graphical representation of one or more collections as they would appear in the corresponding map. e.g.:
 https://test.cubewerx.com/cubewerx/cubeserv/demo/ogcapi/Daraa/map/legend?transparent=false

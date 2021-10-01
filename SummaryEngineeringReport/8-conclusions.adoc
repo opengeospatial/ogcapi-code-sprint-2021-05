@@ -16,7 +16,7 @@ For the OGC Innovation Program, the sprint participants identified a need to:
 * experiment with multidimensional data support in OGC APIs.
 * explore how to turn legends into real data (objects) that can be combined by the client (e.g. asking a client to provide the elements that are in a legend).
 * research how simple a structure needs to be to meet the needs for a legend while also being easily implementable.
-* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles needs to tested/researched.
+* experiment with coverage tiles, as they are becoming increasingly important (e.g. in support of rendering a Digital Surface Model (DSM)).  Strategies for identifying suitable sizes of the tiles need to tested/researched.
 * experiment with non-grid coverages (e.g. point clouds).
 * explore the possibility of an 'info' capability that supports different data sources and query options (not just retrieval of the value at a point).
 * experiment with style editor clients using a secured API to create, update and delete styles and related resources.
